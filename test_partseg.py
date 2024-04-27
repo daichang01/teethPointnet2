@@ -4,7 +4,7 @@ Date: Nov 2019
 """
 import argparse
 import os
-from data_utils.ShapeNetDataLoader import PartNormalDataset
+from data_utils.teethSegDataLoader import PartNormalDataset
 import torch
 import logging
 import sys
@@ -17,10 +17,7 @@ ROOT_DIR = BASE_DIR
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
 
 #字典的定义
-seg_classes = {'Earphone': [16, 17, 18], 'Motorbike': [30, 31, 32, 33, 34, 35], 'Rocket': [41, 42, 43],
-               'Car': [8, 9, 10, 11], 'Laptop': [28, 29], 'Cap': [6, 7], 'Skateboard': [44, 45, 46], 'Mug': [36, 37],
-               'Guitar': [19, 20, 21], 'Bag': [4, 5], 'Lamp': [24, 25, 26, 27], 'Table': [47, 48, 49],
-               'Airplane': [0, 1, 2, 3], 'Pistol': [38, 39, 40], 'Chair': [12, 13, 14, 15], 'Knife': [22, 23]}
+seg_classes = {'Teeth': [0, 1, 2]}
 
 seg_label_to_cat = {}  # {0:Airplane, 1:Airplane, ...49:Table}
 for cat in seg_classes.keys():
@@ -69,13 +66,13 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
     #数据位置
-    root = 'data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = 'data/teeth_segmentation_normal/'
 
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.num_point, split='test', normal_channel=args.normal)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=4)
     log_string("The number of test data is: %d" % len(TEST_DATASET))
-    num_classes = 16
-    num_part = 50
+    num_classes = 1
+    num_part = 3
 
     '''MODEL LOADING'''
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
@@ -83,14 +80,14 @@ def main(args):
     classifier = MODEL.get_model(num_part, normal_channel=args.normal).cuda()
     checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
     classifier.load_state_dict(checkpoint['model_state_dict'])
-
+    #测试不需要权重更新
     with torch.no_grad():
         test_metrics = {}
         total_correct = 0
         total_seen = 0
-        total_seen_class = [0 for _ in range(num_part)] #list:50 元素初始化为0
-        total_correct_class = [0 for _ in range(num_part)] #list: 50 元素初始化为0
-        shape_ious = {cat: [] for cat in seg_classes.keys()} # dict： 16个类别
+        total_seen_class = [0 for _ in range(num_part)] #list:3 元素初始化为0
+        total_correct_class = [0 for _ in range(num_part)] #list: 3 元素初始化为0
+        shape_ious = {cat: [] for cat in seg_classes.keys()} # dict： 1个类别
         seg_label_to_cat = {}  # {0:Airplane, 1:Airplane, ...49:Table}
 
         for cat in seg_classes.keys():
@@ -114,6 +111,7 @@ def main(args):
             cur_pred_val = seg_pred.cpu().data.numpy()
             cur_pred_val_logits = cur_pred_val
             cur_pred_val = np.zeros((cur_batch_size, NUM_POINT)).astype(np.int32)
+            #对每个点进行分类
             target = target.cpu().data.numpy() #(24, 2048)
 
             for i in range(cur_batch_size):
@@ -143,7 +141,7 @@ def main(args):
                         part_ious[l - seg_classes[cat][0]] = np.sum((segl == l) & (segp == l)) / float(
                             np.sum((segl == l) | (segp == l))) #计算交并比
                 # 计算类别的shape IoU
-                shape_ious[cat].append(np.mean(part_ious)) # dict:16个类别
+                shape_ious[cat].append(np.mean(part_ious)) # dict:16个类别（我这里是一个类别，应该时一样的）
 
         all_shape_ious = []
         for cat in shape_ious.keys():

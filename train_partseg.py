@@ -15,16 +15,14 @@ import numpy as np
 
 from pathlib import Path
 from tqdm import tqdm
-from data_utils.ShapeNetDataLoader import PartNormalDataset
+from data_utils.teethSegDataLoader import PartNormalDataset
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = BASE_DIR
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
 
-seg_classes = {'Earphone': [16, 17, 18], 'Motorbike': [30, 31, 32, 33, 34, 35], 'Rocket': [41, 42, 43],
-               'Car': [8, 9, 10, 11], 'Laptop': [28, 29], 'Cap': [6, 7], 'Skateboard': [44, 45, 46], 'Mug': [36, 37],
-               'Guitar': [19, 20, 21], 'Bag': [4, 5], 'Lamp': [24, 25, 26, 27], 'Table': [47, 48, 49],
-               'Airplane': [0, 1, 2, 3], 'Pistol': [38, 39, 40], 'Chair': [12, 13, 14, 15], 'Knife': [22, 23]}
+seg_classes = {'Teeth': [0, 1, 2]}
+
 seg_label_to_cat = {}  # {0:Airplane, 1:Airplane, ...49:Table}
 for cat in seg_classes.keys():
     for label in seg_classes[cat]:
@@ -98,7 +96,7 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    root = 'data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = 'data/teeth_segmentation_normal/'
 
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=args.batch_size, shuffle=True, num_workers=10, drop_last=True)
@@ -138,7 +136,7 @@ def main(args):
         start_epoch = 0
         classifier = classifier.apply(weights_init)
 
-    if args.optimizer == 'Adam':
+    if args.optimizer == 'Adam': #Adam优化器
         optimizer = torch.optim.Adam(
             classifier.parameters(),
             lr=args.learning_rate,
@@ -194,6 +192,7 @@ def main(args):
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
 
+            classifier = classifier.train() #训练 
             seg_pred, trans_feat = classifier(points, to_categorical(label, num_classes)) #训练
             seg_pred = seg_pred.contiguous().view(-1, num_part)
             target = target.view(-1, 1)[:, 0]
@@ -299,6 +298,7 @@ def main(args):
             best_class_avg_iou = test_metrics['class_avg_iou']
         if test_metrics['inctance_avg_iou'] > best_inctance_avg_iou:
             best_inctance_avg_iou = test_metrics['inctance_avg_iou']
+        #保存到日志文件
         log_string('Best accuracy is: %.5f' % best_acc)
         log_string('Best class avg mIOU is: %.5f' % best_class_avg_iou)
         log_string('Best inctance avg mIOU is: %.5f' % best_inctance_avg_iou)

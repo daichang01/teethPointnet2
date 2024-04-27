@@ -38,12 +38,13 @@ class PartNormalDataset(Dataset):
         # print(self.cat)
 
         self.meta = {}
-        with open(os.path.join(self.root, 'train_test_split', 'shuffled_train_file_list.json'), 'r') as f:
+        with open(os.path.join(self.root, 'train_test_split', 'train_files.json'), 'r') as f:
             train_ids = set([str(d.split('/')[3]) for d in json.load(f)])
-        with open(os.path.join(self.root, 'train_test_split', 'shuffled_val_file_list.json'), 'r') as f:
+        with open(os.path.join(self.root, 'train_test_split', 'val_files.json'), 'r') as f:
             val_ids = set([str(d.split('/')[3]) for d in json.load(f)])
-        with open(os.path.join(self.root, 'train_test_split', 'shuffled_test_file_list.json'), 'r') as f:
+        with open(os.path.join(self.root, 'train_test_split', 'test_files.json'), 'r') as f:
             test_ids = set([str(d.split('/')[3]) for d in json.load(f)])
+        print(train_ids)
         for item in self.cat:
             # print('category', item)
             self.meta[item] = []
@@ -75,7 +76,7 @@ class PartNormalDataset(Dataset):
         self.classes = {}
         for i in self.cat.keys():
             self.classes[i] = self.classes_original[i]
-        # 16个物体，50个部件
+        # 1个物体，3个部件
         # Mapping from category ('Chair') to a list of int [10,11,12,13] as segmentation labels
         self.seg_classes = {'Teeth': [0, 1, 2]}
 
@@ -117,5 +118,7 @@ class PartNormalDataset(Dataset):
 def main():
     root = 'data/teeth_segmentation_normal'
 
-    TRAIN_DATASET = PartNormalDataset(root, npoints=2048, split='trainval', normal_channel=False)
+    TRAIN_DATASET = PartNormalDataset(root, npoints=1800, split='trainval', normal_channel=False)
 
+if __name__ == '__main__':
+    main()
