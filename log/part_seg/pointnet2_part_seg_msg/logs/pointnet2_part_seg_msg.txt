@@ -2072,3 +2072,2142 @@
 2024-04-27 20:43:42,805 - Model - INFO - Best accuracy is: 0.91321
 2024-04-27 20:43:42,805 - Model - INFO - Best class avg mIOU is: 0.71429
 2024-04-27 20:43:42,805 - Model - INFO - Best inctance avg mIOU is: 0.71429
+2024-04-28 11:31:18,166 - Model - INFO - PARAMETER ...
+2024-04-28 11:31:18,166 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=16, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:31:18,167 - Model - INFO - The number of training data is: 40
+2024-04-28 11:31:18,167 - Model - INFO - The number of test data is: 8
+2024-04-28 11:31:18,278 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:31:18,634 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:31:18,634 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:31:32,895 - Model - INFO - PARAMETER ...
+2024-04-28 11:31:32,895 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:31:32,895 - Model - INFO - The number of training data is: 40
+2024-04-28 11:31:32,896 - Model - INFO - The number of test data is: 8
+2024-04-28 11:31:32,997 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:31:33,256 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:31:33,256 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:41:23,013 - Model - INFO - PARAMETER ...
+2024-04-28 11:41:23,013 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:41:23,014 - Model - INFO - The number of training data is: 40
+2024-04-28 11:41:23,014 - Model - INFO - The number of test data is: 8
+2024-04-28 11:41:23,114 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:41:23,366 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:41:23,366 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:48:54,597 - Model - INFO - PARAMETER ...
+2024-04-28 11:48:54,597 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:48:54,597 - Model - INFO - The number of training data is: 40
+2024-04-28 11:48:54,597 - Model - INFO - The number of test data is: 8
+2024-04-28 11:48:54,700 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:48:54,956 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:48:54,956 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:54:30,150 - Model - INFO - PARAMETER ...
+2024-04-28 11:54:30,150 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:54:30,150 - Model - INFO - The number of training data is: 40
+2024-04-28 11:54:30,150 - Model - INFO - The number of test data is: 8
+2024-04-28 11:54:30,261 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:54:30,514 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:54:30,515 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:55:46,474 - Model - INFO - PARAMETER ...
+2024-04-28 11:55:46,474 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:55:46,475 - Model - INFO - The number of training data is: 40
+2024-04-28 11:55:46,475 - Model - INFO - The number of test data is: 8
+2024-04-28 11:55:46,573 - Model - INFO - No existing model, starting training from scratch...
+2024-04-28 11:55:46,828 - Model - INFO - Epoch 1 (1/251):
+2024-04-28 11:55:46,829 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:55:48,341 - Model - INFO - Train accuracy is: 0.43655
+2024-04-28 11:55:48,646 - Model - INFO - eval mIoU of Teeth          0.075409
+2024-04-28 11:55:48,646 - Model - INFO - Epoch 1 test Accuracy: 0.133972  Class avg mIOU: 0.075409   Inctance avg mIOU: 0.075409
+2024-04-28 11:55:48,646 - Model - INFO - Save model...
+2024-04-28 11:55:48,646 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:55:48,684 - Model - INFO - Saving model....
+2024-04-28 11:55:48,684 - Model - INFO - Best accuracy is: 0.13397
+2024-04-28 11:55:48,684 - Model - INFO - Best class avg mIOU is: 0.07541
+2024-04-28 11:55:48,684 - Model - INFO - Best inctance avg mIOU is: 0.07541
+2024-04-28 11:55:48,684 - Model - INFO - Epoch 2 (2/251):
+2024-04-28 11:55:48,684 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:55:49,875 - Model - INFO - Train accuracy is: 0.76516
+2024-04-28 11:55:50,163 - Model - INFO - eval mIoU of Teeth          0.281540
+2024-04-28 11:55:50,163 - Model - INFO - Epoch 2 test Accuracy: 0.477844  Class avg mIOU: 0.281540   Inctance avg mIOU: 0.281540
+2024-04-28 11:55:50,163 - Model - INFO - Save model...
+2024-04-28 11:55:50,163 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:55:50,210 - Model - INFO - Saving model....
+2024-04-28 11:55:50,211 - Model - INFO - Best accuracy is: 0.47784
+2024-04-28 11:55:50,211 - Model - INFO - Best class avg mIOU is: 0.28154
+2024-04-28 11:55:50,211 - Model - INFO - Best inctance avg mIOU is: 0.28154
+2024-04-28 11:55:50,211 - Model - INFO - Epoch 3 (3/251):
+2024-04-28 11:55:50,211 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:48,184 - Model - INFO - PARAMETER ...
+2024-04-28 11:56:48,184 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-28 11:56:48,184 - Model - INFO - The number of training data is: 40
+2024-04-28 11:56:48,184 - Model - INFO - The number of test data is: 8
+2024-04-28 11:56:48,288 - Model - INFO - Use pretrain model
+2024-04-28 11:56:48,541 - Model - INFO - Epoch 1 (2/251):
+2024-04-28 11:56:48,541 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:50,010 - Model - INFO - Train accuracy is: 0.85306
+2024-04-28 11:56:50,309 - Model - INFO - eval mIoU of Teeth          0.412217
+2024-04-28 11:56:50,309 - Model - INFO - Epoch 2 test Accuracy: 0.807312  Class avg mIOU: 0.412217   Inctance avg mIOU: 0.412217
+2024-04-28 11:56:50,309 - Model - INFO - Save model...
+2024-04-28 11:56:50,309 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:56:50,360 - Model - INFO - Saving model....
+2024-04-28 11:56:50,360 - Model - INFO - Best accuracy is: 0.80731
+2024-04-28 11:56:50,360 - Model - INFO - Best class avg mIOU is: 0.41222
+2024-04-28 11:56:50,360 - Model - INFO - Best inctance avg mIOU is: 0.41222
+2024-04-28 11:56:50,360 - Model - INFO - Epoch 2 (3/251):
+2024-04-28 11:56:50,360 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:51,551 - Model - INFO - Train accuracy is: 0.87805
+2024-04-28 11:56:51,848 - Model - INFO - eval mIoU of Teeth          0.603041
+2024-04-28 11:56:51,848 - Model - INFO - Epoch 3 test Accuracy: 0.842224  Class avg mIOU: 0.603041   Inctance avg mIOU: 0.603041
+2024-04-28 11:56:51,848 - Model - INFO - Save model...
+2024-04-28 11:56:51,848 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:56:51,895 - Model - INFO - Saving model....
+2024-04-28 11:56:51,895 - Model - INFO - Best accuracy is: 0.84222
+2024-04-28 11:56:51,896 - Model - INFO - Best class avg mIOU is: 0.60304
+2024-04-28 11:56:51,896 - Model - INFO - Best inctance avg mIOU is: 0.60304
+2024-04-28 11:56:51,896 - Model - INFO - Epoch 3 (4/251):
+2024-04-28 11:56:51,896 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:53,085 - Model - INFO - Train accuracy is: 0.89758
+2024-04-28 11:56:53,389 - Model - INFO - eval mIoU of Teeth          0.560297
+2024-04-28 11:56:53,389 - Model - INFO - Epoch 4 test Accuracy: 0.825745  Class avg mIOU: 0.560297   Inctance avg mIOU: 0.560297
+2024-04-28 11:56:53,389 - Model - INFO - Best accuracy is: 0.84222
+2024-04-28 11:56:53,389 - Model - INFO - Best class avg mIOU is: 0.60304
+2024-04-28 11:56:53,389 - Model - INFO - Best inctance avg mIOU is: 0.60304
+2024-04-28 11:56:53,389 - Model - INFO - Epoch 4 (5/251):
+2024-04-28 11:56:53,389 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:54,583 - Model - INFO - Train accuracy is: 0.90773
+2024-04-28 11:56:54,893 - Model - INFO - eval mIoU of Teeth          0.640224
+2024-04-28 11:56:54,893 - Model - INFO - Epoch 5 test Accuracy: 0.862427  Class avg mIOU: 0.640224   Inctance avg mIOU: 0.640224
+2024-04-28 11:56:54,893 - Model - INFO - Save model...
+2024-04-28 11:56:54,893 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:56:54,939 - Model - INFO - Saving model....
+2024-04-28 11:56:54,939 - Model - INFO - Best accuracy is: 0.86243
+2024-04-28 11:56:54,939 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:56:54,939 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:56:54,939 - Model - INFO - Epoch 5 (6/251):
+2024-04-28 11:56:54,939 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:56,153 - Model - INFO - Train accuracy is: 0.91248
+2024-04-28 11:56:56,454 - Model - INFO - eval mIoU of Teeth          0.630410
+2024-04-28 11:56:56,454 - Model - INFO - Epoch 6 test Accuracy: 0.887756  Class avg mIOU: 0.630410   Inctance avg mIOU: 0.630410
+2024-04-28 11:56:56,455 - Model - INFO - Best accuracy is: 0.88776
+2024-04-28 11:56:56,455 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:56:56,455 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:56:56,455 - Model - INFO - Epoch 6 (7/251):
+2024-04-28 11:56:56,455 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:57,636 - Model - INFO - Train accuracy is: 0.91990
+2024-04-28 11:56:57,920 - Model - INFO - eval mIoU of Teeth          0.471982
+2024-04-28 11:56:57,920 - Model - INFO - Epoch 7 test Accuracy: 0.832397  Class avg mIOU: 0.471982   Inctance avg mIOU: 0.471982
+2024-04-28 11:56:57,920 - Model - INFO - Best accuracy is: 0.88776
+2024-04-28 11:56:57,921 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:56:57,921 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:56:57,921 - Model - INFO - Epoch 7 (8/251):
+2024-04-28 11:56:57,921 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:56:59,112 - Model - INFO - Train accuracy is: 0.92344
+2024-04-28 11:56:59,427 - Model - INFO - eval mIoU of Teeth          0.531778
+2024-04-28 11:56:59,428 - Model - INFO - Epoch 8 test Accuracy: 0.831482  Class avg mIOU: 0.531778   Inctance avg mIOU: 0.531778
+2024-04-28 11:56:59,428 - Model - INFO - Best accuracy is: 0.88776
+2024-04-28 11:56:59,428 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:56:59,428 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:56:59,428 - Model - INFO - Epoch 8 (9/251):
+2024-04-28 11:56:59,428 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:00,620 - Model - INFO - Train accuracy is: 0.92670
+2024-04-28 11:57:00,909 - Model - INFO - eval mIoU of Teeth          0.601741
+2024-04-28 11:57:00,909 - Model - INFO - Epoch 9 test Accuracy: 0.876282  Class avg mIOU: 0.601741   Inctance avg mIOU: 0.601741
+2024-04-28 11:57:00,910 - Model - INFO - Best accuracy is: 0.88776
+2024-04-28 11:57:00,910 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:57:00,910 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:57:00,910 - Model - INFO - Epoch 9 (10/251):
+2024-04-28 11:57:00,910 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:02,105 - Model - INFO - Train accuracy is: 0.93088
+2024-04-28 11:57:02,373 - Model - INFO - eval mIoU of Teeth          0.609495
+2024-04-28 11:57:02,373 - Model - INFO - Epoch 10 test Accuracy: 0.865417  Class avg mIOU: 0.609495   Inctance avg mIOU: 0.609495
+2024-04-28 11:57:02,373 - Model - INFO - Best accuracy is: 0.88776
+2024-04-28 11:57:02,373 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:57:02,373 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:57:02,373 - Model - INFO - Epoch 10 (11/251):
+2024-04-28 11:57:02,373 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:03,580 - Model - INFO - Train accuracy is: 0.93260
+2024-04-28 11:57:03,881 - Model - INFO - eval mIoU of Teeth          0.636763
+2024-04-28 11:57:03,881 - Model - INFO - Epoch 11 test Accuracy: 0.889526  Class avg mIOU: 0.636763   Inctance avg mIOU: 0.636763
+2024-04-28 11:57:03,881 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:03,881 - Model - INFO - Best class avg mIOU is: 0.64022
+2024-04-28 11:57:03,881 - Model - INFO - Best inctance avg mIOU is: 0.64022
+2024-04-28 11:57:03,881 - Model - INFO - Epoch 11 (12/251):
+2024-04-28 11:57:03,881 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:05,145 - Model - INFO - Train accuracy is: 0.92206
+2024-04-28 11:57:05,438 - Model - INFO - eval mIoU of Teeth          0.662144
+2024-04-28 11:57:05,439 - Model - INFO - Epoch 12 test Accuracy: 0.888916  Class avg mIOU: 0.662144   Inctance avg mIOU: 0.662144
+2024-04-28 11:57:05,439 - Model - INFO - Save model...
+2024-04-28 11:57:05,439 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:57:05,488 - Model - INFO - Saving model....
+2024-04-28 11:57:05,488 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:05,488 - Model - INFO - Best class avg mIOU is: 0.66214
+2024-04-28 11:57:05,488 - Model - INFO - Best inctance avg mIOU is: 0.66214
+2024-04-28 11:57:05,488 - Model - INFO - Epoch 12 (13/251):
+2024-04-28 11:57:05,488 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:06,754 - Model - INFO - Train accuracy is: 0.93373
+2024-04-28 11:57:07,058 - Model - INFO - eval mIoU of Teeth          0.620707
+2024-04-28 11:57:07,058 - Model - INFO - Epoch 13 test Accuracy: 0.881592  Class avg mIOU: 0.620707   Inctance avg mIOU: 0.620707
+2024-04-28 11:57:07,058 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:07,058 - Model - INFO - Best class avg mIOU is: 0.66214
+2024-04-28 11:57:07,058 - Model - INFO - Best inctance avg mIOU is: 0.66214
+2024-04-28 11:57:07,058 - Model - INFO - Epoch 13 (14/251):
+2024-04-28 11:57:07,058 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:08,248 - Model - INFO - Train accuracy is: 0.93594
+2024-04-28 11:57:08,549 - Model - INFO - eval mIoU of Teeth          0.607982
+2024-04-28 11:57:08,549 - Model - INFO - Epoch 14 test Accuracy: 0.880859  Class avg mIOU: 0.607982   Inctance avg mIOU: 0.607982
+2024-04-28 11:57:08,549 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:08,549 - Model - INFO - Best class avg mIOU is: 0.66214
+2024-04-28 11:57:08,549 - Model - INFO - Best inctance avg mIOU is: 0.66214
+2024-04-28 11:57:08,549 - Model - INFO - Epoch 14 (15/251):
+2024-04-28 11:57:08,549 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:09,751 - Model - INFO - Train accuracy is: 0.93529
+2024-04-28 11:57:10,027 - Model - INFO - eval mIoU of Teeth          0.588865
+2024-04-28 11:57:10,028 - Model - INFO - Epoch 15 test Accuracy: 0.877747  Class avg mIOU: 0.588865   Inctance avg mIOU: 0.588865
+2024-04-28 11:57:10,028 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:10,028 - Model - INFO - Best class avg mIOU is: 0.66214
+2024-04-28 11:57:10,028 - Model - INFO - Best inctance avg mIOU is: 0.66214
+2024-04-28 11:57:10,028 - Model - INFO - Epoch 15 (16/251):
+2024-04-28 11:57:10,028 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:11,227 - Model - INFO - Train accuracy is: 0.93741
+2024-04-28 11:57:11,512 - Model - INFO - eval mIoU of Teeth          0.593582
+2024-04-28 11:57:11,512 - Model - INFO - Epoch 16 test Accuracy: 0.874634  Class avg mIOU: 0.593582   Inctance avg mIOU: 0.593582
+2024-04-28 11:57:11,512 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:11,512 - Model - INFO - Best class avg mIOU is: 0.66214
+2024-04-28 11:57:11,512 - Model - INFO - Best inctance avg mIOU is: 0.66214
+2024-04-28 11:57:11,512 - Model - INFO - Epoch 16 (17/251):
+2024-04-28 11:57:11,512 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:12,708 - Model - INFO - Train accuracy is: 0.94188
+2024-04-28 11:57:13,009 - Model - INFO - eval mIoU of Teeth          0.662441
+2024-04-28 11:57:13,009 - Model - INFO - Epoch 17 test Accuracy: 0.882874  Class avg mIOU: 0.662441   Inctance avg mIOU: 0.662441
+2024-04-28 11:57:13,009 - Model - INFO - Save model...
+2024-04-28 11:57:13,009 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:57:13,056 - Model - INFO - Saving model....
+2024-04-28 11:57:13,056 - Model - INFO - Best accuracy is: 0.88953
+2024-04-28 11:57:13,056 - Model - INFO - Best class avg mIOU is: 0.66244
+2024-04-28 11:57:13,056 - Model - INFO - Best inctance avg mIOU is: 0.66244
+2024-04-28 11:57:13,056 - Model - INFO - Epoch 17 (18/251):
+2024-04-28 11:57:13,056 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:14,256 - Model - INFO - Train accuracy is: 0.93954
+2024-04-28 11:57:14,546 - Model - INFO - eval mIoU of Teeth          0.655596
+2024-04-28 11:57:14,546 - Model - INFO - Epoch 18 test Accuracy: 0.898804  Class avg mIOU: 0.655596   Inctance avg mIOU: 0.655596
+2024-04-28 11:57:14,546 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:14,546 - Model - INFO - Best class avg mIOU is: 0.66244
+2024-04-28 11:57:14,546 - Model - INFO - Best inctance avg mIOU is: 0.66244
+2024-04-28 11:57:14,546 - Model - INFO - Epoch 18 (19/251):
+2024-04-28 11:57:14,546 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:15,751 - Model - INFO - Train accuracy is: 0.93599
+2024-04-28 11:57:16,064 - Model - INFO - eval mIoU of Teeth          0.644599
+2024-04-28 11:57:16,064 - Model - INFO - Epoch 19 test Accuracy: 0.876892  Class avg mIOU: 0.644599   Inctance avg mIOU: 0.644599
+2024-04-28 11:57:16,064 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:16,064 - Model - INFO - Best class avg mIOU is: 0.66244
+2024-04-28 11:57:16,064 - Model - INFO - Best inctance avg mIOU is: 0.66244
+2024-04-28 11:57:16,064 - Model - INFO - Epoch 19 (20/251):
+2024-04-28 11:57:16,064 - Model - INFO - Learning rate:0.001000
+2024-04-28 11:57:17,252 - Model - INFO - Train accuracy is: 0.93888
+2024-04-28 11:57:17,552 - Model - INFO - eval mIoU of Teeth          0.667524
+2024-04-28 11:57:17,552 - Model - INFO - Epoch 20 test Accuracy: 0.894775  Class avg mIOU: 0.667524   Inctance avg mIOU: 0.667524
+2024-04-28 11:57:17,552 - Model - INFO - Save model...
+2024-04-28 11:57:17,552 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:57:17,603 - Model - INFO - Saving model....
+2024-04-28 11:57:17,603 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:17,603 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:17,603 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:17,603 - Model - INFO - Epoch 20 (21/251):
+2024-04-28 11:57:17,603 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:18,805 - Model - INFO - Train accuracy is: 0.94160
+2024-04-28 11:57:19,101 - Model - INFO - eval mIoU of Teeth          0.641820
+2024-04-28 11:57:19,101 - Model - INFO - Epoch 21 test Accuracy: 0.893372  Class avg mIOU: 0.641820   Inctance avg mIOU: 0.641820
+2024-04-28 11:57:19,101 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:19,101 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:19,101 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:19,101 - Model - INFO - Epoch 21 (22/251):
+2024-04-28 11:57:19,101 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:20,281 - Model - INFO - Train accuracy is: 0.94243
+2024-04-28 11:57:20,579 - Model - INFO - eval mIoU of Teeth          0.622673
+2024-04-28 11:57:20,579 - Model - INFO - Epoch 22 test Accuracy: 0.879150  Class avg mIOU: 0.622673   Inctance avg mIOU: 0.622673
+2024-04-28 11:57:20,579 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:20,579 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:20,579 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:20,579 - Model - INFO - Epoch 22 (23/251):
+2024-04-28 11:57:20,579 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:21,767 - Model - INFO - Train accuracy is: 0.94768
+2024-04-28 11:57:22,075 - Model - INFO - eval mIoU of Teeth          0.643872
+2024-04-28 11:57:22,075 - Model - INFO - Epoch 23 test Accuracy: 0.887207  Class avg mIOU: 0.643872   Inctance avg mIOU: 0.643872
+2024-04-28 11:57:22,075 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:22,075 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:22,075 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:22,075 - Model - INFO - Epoch 23 (24/251):
+2024-04-28 11:57:22,075 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:23,339 - Model - INFO - Train accuracy is: 0.94990
+2024-04-28 11:57:23,641 - Model - INFO - eval mIoU of Teeth          0.631898
+2024-04-28 11:57:23,641 - Model - INFO - Epoch 24 test Accuracy: 0.887878  Class avg mIOU: 0.631898   Inctance avg mIOU: 0.631898
+2024-04-28 11:57:23,641 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:23,641 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:23,641 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:23,641 - Model - INFO - Epoch 24 (25/251):
+2024-04-28 11:57:23,641 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:24,848 - Model - INFO - Train accuracy is: 0.95247
+2024-04-28 11:57:25,152 - Model - INFO - eval mIoU of Teeth          0.653950
+2024-04-28 11:57:25,152 - Model - INFO - Epoch 25 test Accuracy: 0.890137  Class avg mIOU: 0.653950   Inctance avg mIOU: 0.653950
+2024-04-28 11:57:25,152 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:25,152 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:25,152 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:25,152 - Model - INFO - Epoch 25 (26/251):
+2024-04-28 11:57:25,152 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:26,338 - Model - INFO - Train accuracy is: 0.95023
+2024-04-28 11:57:26,636 - Model - INFO - eval mIoU of Teeth          0.660720
+2024-04-28 11:57:26,636 - Model - INFO - Epoch 26 test Accuracy: 0.897705  Class avg mIOU: 0.660720   Inctance avg mIOU: 0.660720
+2024-04-28 11:57:26,637 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:26,637 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:26,637 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:26,637 - Model - INFO - Epoch 26 (27/251):
+2024-04-28 11:57:26,637 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:27,851 - Model - INFO - Train accuracy is: 0.95081
+2024-04-28 11:57:28,129 - Model - INFO - eval mIoU of Teeth          0.646246
+2024-04-28 11:57:28,129 - Model - INFO - Epoch 27 test Accuracy: 0.891235  Class avg mIOU: 0.646246   Inctance avg mIOU: 0.646246
+2024-04-28 11:57:28,129 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:28,129 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:28,129 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:28,129 - Model - INFO - Epoch 27 (28/251):
+2024-04-28 11:57:28,129 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:29,309 - Model - INFO - Train accuracy is: 0.94960
+2024-04-28 11:57:29,609 - Model - INFO - eval mIoU of Teeth          0.617848
+2024-04-28 11:57:29,609 - Model - INFO - Epoch 28 test Accuracy: 0.884949  Class avg mIOU: 0.617848   Inctance avg mIOU: 0.617848
+2024-04-28 11:57:29,609 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:29,609 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:29,609 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:29,609 - Model - INFO - Epoch 28 (29/251):
+2024-04-28 11:57:29,609 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:30,819 - Model - INFO - Train accuracy is: 0.95145
+2024-04-28 11:57:31,104 - Model - INFO - eval mIoU of Teeth          0.664292
+2024-04-28 11:57:31,104 - Model - INFO - Epoch 29 test Accuracy: 0.892578  Class avg mIOU: 0.664292   Inctance avg mIOU: 0.664292
+2024-04-28 11:57:31,104 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:31,104 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:31,104 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:31,104 - Model - INFO - Epoch 29 (30/251):
+2024-04-28 11:57:31,104 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:32,304 - Model - INFO - Train accuracy is: 0.95343
+2024-04-28 11:57:32,579 - Model - INFO - eval mIoU of Teeth          0.659300
+2024-04-28 11:57:32,579 - Model - INFO - Epoch 30 test Accuracy: 0.895142  Class avg mIOU: 0.659300   Inctance avg mIOU: 0.659300
+2024-04-28 11:57:32,579 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:32,579 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:32,579 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:32,579 - Model - INFO - Epoch 30 (31/251):
+2024-04-28 11:57:32,579 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:33,790 - Model - INFO - Train accuracy is: 0.95669
+2024-04-28 11:57:34,071 - Model - INFO - eval mIoU of Teeth          0.655704
+2024-04-28 11:57:34,071 - Model - INFO - Epoch 31 test Accuracy: 0.892456  Class avg mIOU: 0.655704   Inctance avg mIOU: 0.655704
+2024-04-28 11:57:34,071 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:34,071 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:34,071 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:34,071 - Model - INFO - Epoch 31 (32/251):
+2024-04-28 11:57:34,071 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:35,280 - Model - INFO - Train accuracy is: 0.95510
+2024-04-28 11:57:35,599 - Model - INFO - eval mIoU of Teeth          0.647228
+2024-04-28 11:57:35,599 - Model - INFO - Epoch 32 test Accuracy: 0.877502  Class avg mIOU: 0.647228   Inctance avg mIOU: 0.647228
+2024-04-28 11:57:35,599 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:35,599 - Model - INFO - Best class avg mIOU is: 0.66752
+2024-04-28 11:57:35,599 - Model - INFO - Best inctance avg mIOU is: 0.66752
+2024-04-28 11:57:35,599 - Model - INFO - Epoch 32 (33/251):
+2024-04-28 11:57:35,599 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:36,810 - Model - INFO - Train accuracy is: 0.95632
+2024-04-28 11:57:37,094 - Model - INFO - eval mIoU of Teeth          0.676307
+2024-04-28 11:57:37,094 - Model - INFO - Epoch 33 test Accuracy: 0.896912  Class avg mIOU: 0.676307   Inctance avg mIOU: 0.676307
+2024-04-28 11:57:37,094 - Model - INFO - Save model...
+2024-04-28 11:57:37,094 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:57:37,132 - Model - INFO - Saving model....
+2024-04-28 11:57:37,132 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:37,132 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:37,132 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:37,132 - Model - INFO - Epoch 33 (34/251):
+2024-04-28 11:57:37,133 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:38,352 - Model - INFO - Train accuracy is: 0.95693
+2024-04-28 11:57:38,636 - Model - INFO - eval mIoU of Teeth          0.638017
+2024-04-28 11:57:38,637 - Model - INFO - Epoch 34 test Accuracy: 0.885193  Class avg mIOU: 0.638017   Inctance avg mIOU: 0.638017
+2024-04-28 11:57:38,637 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:38,637 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:38,637 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:38,637 - Model - INFO - Epoch 34 (35/251):
+2024-04-28 11:57:38,637 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:39,890 - Model - INFO - Train accuracy is: 0.95597
+2024-04-28 11:57:40,200 - Model - INFO - eval mIoU of Teeth          0.649879
+2024-04-28 11:57:40,200 - Model - INFO - Epoch 35 test Accuracy: 0.884766  Class avg mIOU: 0.649879   Inctance avg mIOU: 0.649879
+2024-04-28 11:57:40,200 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:40,200 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:40,200 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:40,201 - Model - INFO - Epoch 35 (36/251):
+2024-04-28 11:57:40,201 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:41,463 - Model - INFO - Train accuracy is: 0.95416
+2024-04-28 11:57:41,773 - Model - INFO - eval mIoU of Teeth          0.665252
+2024-04-28 11:57:41,773 - Model - INFO - Epoch 36 test Accuracy: 0.892456  Class avg mIOU: 0.665252   Inctance avg mIOU: 0.665252
+2024-04-28 11:57:41,773 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:41,773 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:41,773 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:41,773 - Model - INFO - Epoch 36 (37/251):
+2024-04-28 11:57:41,774 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:43,004 - Model - INFO - Train accuracy is: 0.95607
+2024-04-28 11:57:43,318 - Model - INFO - eval mIoU of Teeth          0.651955
+2024-04-28 11:57:43,318 - Model - INFO - Epoch 37 test Accuracy: 0.890747  Class avg mIOU: 0.651955   Inctance avg mIOU: 0.651955
+2024-04-28 11:57:43,318 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:43,318 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:43,318 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:43,318 - Model - INFO - Epoch 37 (38/251):
+2024-04-28 11:57:43,318 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:44,592 - Model - INFO - Train accuracy is: 0.95715
+2024-04-28 11:57:44,883 - Model - INFO - eval mIoU of Teeth          0.644368
+2024-04-28 11:57:44,883 - Model - INFO - Epoch 38 test Accuracy: 0.892090  Class avg mIOU: 0.644368   Inctance avg mIOU: 0.644368
+2024-04-28 11:57:44,883 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:44,883 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:44,883 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:44,883 - Model - INFO - Epoch 38 (39/251):
+2024-04-28 11:57:44,883 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:46,147 - Model - INFO - Train accuracy is: 0.95646
+2024-04-28 11:57:46,447 - Model - INFO - eval mIoU of Teeth          0.612697
+2024-04-28 11:57:46,447 - Model - INFO - Epoch 39 test Accuracy: 0.877686  Class avg mIOU: 0.612697   Inctance avg mIOU: 0.612697
+2024-04-28 11:57:46,447 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:46,447 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:46,447 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:46,447 - Model - INFO - Epoch 39 (40/251):
+2024-04-28 11:57:46,447 - Model - INFO - Learning rate:0.000500
+2024-04-28 11:57:47,731 - Model - INFO - Train accuracy is: 0.95931
+2024-04-28 11:57:48,025 - Model - INFO - eval mIoU of Teeth          0.659816
+2024-04-28 11:57:48,026 - Model - INFO - Epoch 40 test Accuracy: 0.888489  Class avg mIOU: 0.659816   Inctance avg mIOU: 0.659816
+2024-04-28 11:57:48,026 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:48,026 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:48,026 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:48,026 - Model - INFO - Epoch 40 (41/251):
+2024-04-28 11:57:48,026 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:49,290 - Model - INFO - Train accuracy is: 0.95383
+2024-04-28 11:57:49,596 - Model - INFO - eval mIoU of Teeth          0.646946
+2024-04-28 11:57:49,596 - Model - INFO - Epoch 41 test Accuracy: 0.885864  Class avg mIOU: 0.646946   Inctance avg mIOU: 0.646946
+2024-04-28 11:57:49,596 - Model - INFO - Best accuracy is: 0.89880
+2024-04-28 11:57:49,596 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:49,596 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:49,597 - Model - INFO - Epoch 41 (42/251):
+2024-04-28 11:57:49,597 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:50,879 - Model - INFO - Train accuracy is: 0.95856
+2024-04-28 11:57:51,202 - Model - INFO - eval mIoU of Teeth          0.665777
+2024-04-28 11:57:51,202 - Model - INFO - Epoch 42 test Accuracy: 0.899414  Class avg mIOU: 0.665777   Inctance avg mIOU: 0.665777
+2024-04-28 11:57:51,202 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:51,202 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:51,202 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:51,202 - Model - INFO - Epoch 42 (43/251):
+2024-04-28 11:57:51,202 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:52,457 - Model - INFO - Train accuracy is: 0.96088
+2024-04-28 11:57:52,775 - Model - INFO - eval mIoU of Teeth          0.662040
+2024-04-28 11:57:52,776 - Model - INFO - Epoch 43 test Accuracy: 0.898987  Class avg mIOU: 0.662040   Inctance avg mIOU: 0.662040
+2024-04-28 11:57:52,776 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:52,776 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:52,776 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:52,776 - Model - INFO - Epoch 43 (44/251):
+2024-04-28 11:57:52,776 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:53,998 - Model - INFO - Train accuracy is: 0.96080
+2024-04-28 11:57:54,299 - Model - INFO - eval mIoU of Teeth          0.655514
+2024-04-28 11:57:54,299 - Model - INFO - Epoch 44 test Accuracy: 0.892761  Class avg mIOU: 0.655514   Inctance avg mIOU: 0.655514
+2024-04-28 11:57:54,299 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:54,299 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:54,299 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:54,299 - Model - INFO - Epoch 44 (45/251):
+2024-04-28 11:57:54,299 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:55,551 - Model - INFO - Train accuracy is: 0.96207
+2024-04-28 11:57:55,859 - Model - INFO - eval mIoU of Teeth          0.659345
+2024-04-28 11:57:55,859 - Model - INFO - Epoch 45 test Accuracy: 0.898193  Class avg mIOU: 0.659345   Inctance avg mIOU: 0.659345
+2024-04-28 11:57:55,859 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:55,859 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:55,859 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:55,859 - Model - INFO - Epoch 45 (46/251):
+2024-04-28 11:57:55,859 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:57,126 - Model - INFO - Train accuracy is: 0.96365
+2024-04-28 11:57:57,426 - Model - INFO - eval mIoU of Teeth          0.636514
+2024-04-28 11:57:57,426 - Model - INFO - Epoch 46 test Accuracy: 0.886658  Class avg mIOU: 0.636514   Inctance avg mIOU: 0.636514
+2024-04-28 11:57:57,426 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:57,426 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:57,426 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:57,426 - Model - INFO - Epoch 46 (47/251):
+2024-04-28 11:57:57,427 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:57:58,687 - Model - INFO - Train accuracy is: 0.96274
+2024-04-28 11:57:59,004 - Model - INFO - eval mIoU of Teeth          0.646691
+2024-04-28 11:57:59,004 - Model - INFO - Epoch 47 test Accuracy: 0.891785  Class avg mIOU: 0.646691   Inctance avg mIOU: 0.646691
+2024-04-28 11:57:59,004 - Model - INFO - Best accuracy is: 0.89941
+2024-04-28 11:57:59,004 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:57:59,004 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:57:59,004 - Model - INFO - Epoch 47 (48/251):
+2024-04-28 11:57:59,004 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:00,232 - Model - INFO - Train accuracy is: 0.96432
+2024-04-28 11:58:00,526 - Model - INFO - eval mIoU of Teeth          0.671907
+2024-04-28 11:58:00,526 - Model - INFO - Epoch 48 test Accuracy: 0.900085  Class avg mIOU: 0.671907   Inctance avg mIOU: 0.671907
+2024-04-28 11:58:00,526 - Model - INFO - Best accuracy is: 0.90009
+2024-04-28 11:58:00,526 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:00,526 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:00,526 - Model - INFO - Epoch 48 (49/251):
+2024-04-28 11:58:00,526 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:01,753 - Model - INFO - Train accuracy is: 0.96532
+2024-04-28 11:58:02,051 - Model - INFO - eval mIoU of Teeth          0.659487
+2024-04-28 11:58:02,051 - Model - INFO - Epoch 49 test Accuracy: 0.896118  Class avg mIOU: 0.659487   Inctance avg mIOU: 0.659487
+2024-04-28 11:58:02,052 - Model - INFO - Best accuracy is: 0.90009
+2024-04-28 11:58:02,052 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:02,052 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:02,052 - Model - INFO - Epoch 49 (50/251):
+2024-04-28 11:58:02,052 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:03,280 - Model - INFO - Train accuracy is: 0.96313
+2024-04-28 11:58:03,563 - Model - INFO - eval mIoU of Teeth          0.654559
+2024-04-28 11:58:03,563 - Model - INFO - Epoch 50 test Accuracy: 0.892151  Class avg mIOU: 0.654559   Inctance avg mIOU: 0.654559
+2024-04-28 11:58:03,564 - Model - INFO - Best accuracy is: 0.90009
+2024-04-28 11:58:03,564 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:03,564 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:03,564 - Model - INFO - Epoch 50 (51/251):
+2024-04-28 11:58:03,564 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:04,855 - Model - INFO - Train accuracy is: 0.96388
+2024-04-28 11:58:05,128 - Model - INFO - eval mIoU of Teeth          0.675848
+2024-04-28 11:58:05,128 - Model - INFO - Epoch 51 test Accuracy: 0.899170  Class avg mIOU: 0.675848   Inctance avg mIOU: 0.675848
+2024-04-28 11:58:05,128 - Model - INFO - Best accuracy is: 0.90009
+2024-04-28 11:58:05,129 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:05,129 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:05,129 - Model - INFO - Epoch 51 (52/251):
+2024-04-28 11:58:05,129 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:06,314 - Model - INFO - Train accuracy is: 0.96282
+2024-04-28 11:58:06,616 - Model - INFO - eval mIoU of Teeth          0.660430
+2024-04-28 11:58:06,616 - Model - INFO - Epoch 52 test Accuracy: 0.896851  Class avg mIOU: 0.660430   Inctance avg mIOU: 0.660430
+2024-04-28 11:58:06,616 - Model - INFO - Best accuracy is: 0.90009
+2024-04-28 11:58:06,616 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:06,616 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:06,616 - Model - INFO - Epoch 52 (53/251):
+2024-04-28 11:58:06,616 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:07,802 - Model - INFO - Train accuracy is: 0.96550
+2024-04-28 11:58:08,073 - Model - INFO - eval mIoU of Teeth          0.676045
+2024-04-28 11:58:08,073 - Model - INFO - Epoch 53 test Accuracy: 0.901733  Class avg mIOU: 0.676045   Inctance avg mIOU: 0.676045
+2024-04-28 11:58:08,073 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:08,073 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:08,073 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:08,073 - Model - INFO - Epoch 53 (54/251):
+2024-04-28 11:58:08,073 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:09,297 - Model - INFO - Train accuracy is: 0.96385
+2024-04-28 11:58:09,581 - Model - INFO - eval mIoU of Teeth          0.660583
+2024-04-28 11:58:09,581 - Model - INFO - Epoch 54 test Accuracy: 0.890137  Class avg mIOU: 0.660583   Inctance avg mIOU: 0.660583
+2024-04-28 11:58:09,582 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:09,582 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:09,582 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:09,582 - Model - INFO - Epoch 54 (55/251):
+2024-04-28 11:58:09,582 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:10,791 - Model - INFO - Train accuracy is: 0.96287
+2024-04-28 11:58:11,085 - Model - INFO - eval mIoU of Teeth          0.664158
+2024-04-28 11:58:11,085 - Model - INFO - Epoch 55 test Accuracy: 0.894592  Class avg mIOU: 0.664158   Inctance avg mIOU: 0.664158
+2024-04-28 11:58:11,085 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:11,085 - Model - INFO - Best class avg mIOU is: 0.67631
+2024-04-28 11:58:11,086 - Model - INFO - Best inctance avg mIOU is: 0.67631
+2024-04-28 11:58:11,086 - Model - INFO - Epoch 55 (56/251):
+2024-04-28 11:58:11,086 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:12,299 - Model - INFO - Train accuracy is: 0.96490
+2024-04-28 11:58:12,597 - Model - INFO - eval mIoU of Teeth          0.676704
+2024-04-28 11:58:12,598 - Model - INFO - Epoch 56 test Accuracy: 0.894653  Class avg mIOU: 0.676704   Inctance avg mIOU: 0.676704
+2024-04-28 11:58:12,598 - Model - INFO - Save model...
+2024-04-28 11:58:12,598 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:58:12,647 - Model - INFO - Saving model....
+2024-04-28 11:58:12,647 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:12,647 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:12,647 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:12,647 - Model - INFO - Epoch 56 (57/251):
+2024-04-28 11:58:12,647 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:13,883 - Model - INFO - Train accuracy is: 0.96495
+2024-04-28 11:58:14,204 - Model - INFO - eval mIoU of Teeth          0.673150
+2024-04-28 11:58:14,204 - Model - INFO - Epoch 57 test Accuracy: 0.898254  Class avg mIOU: 0.673150   Inctance avg mIOU: 0.673150
+2024-04-28 11:58:14,204 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:14,204 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:14,204 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:14,204 - Model - INFO - Epoch 57 (58/251):
+2024-04-28 11:58:14,204 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:15,420 - Model - INFO - Train accuracy is: 0.96321
+2024-04-28 11:58:15,694 - Model - INFO - eval mIoU of Teeth          0.657679
+2024-04-28 11:58:15,694 - Model - INFO - Epoch 58 test Accuracy: 0.894409  Class avg mIOU: 0.657679   Inctance avg mIOU: 0.657679
+2024-04-28 11:58:15,694 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:15,694 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:15,694 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:15,694 - Model - INFO - Epoch 58 (59/251):
+2024-04-28 11:58:15,694 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:16,940 - Model - INFO - Train accuracy is: 0.96156
+2024-04-28 11:58:17,244 - Model - INFO - eval mIoU of Teeth          0.660873
+2024-04-28 11:58:17,244 - Model - INFO - Epoch 59 test Accuracy: 0.890381  Class avg mIOU: 0.660873   Inctance avg mIOU: 0.660873
+2024-04-28 11:58:17,244 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:17,244 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:17,244 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:17,244 - Model - INFO - Epoch 59 (60/251):
+2024-04-28 11:58:17,244 - Model - INFO - Learning rate:0.000250
+2024-04-28 11:58:18,513 - Model - INFO - Train accuracy is: 0.96471
+2024-04-28 11:58:18,832 - Model - INFO - eval mIoU of Teeth          0.662257
+2024-04-28 11:58:18,833 - Model - INFO - Epoch 60 test Accuracy: 0.897705  Class avg mIOU: 0.662257   Inctance avg mIOU: 0.662257
+2024-04-28 11:58:18,833 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:18,833 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:18,833 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:18,833 - Model - INFO - Epoch 60 (61/251):
+2024-04-28 11:58:18,833 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:20,079 - Model - INFO - Train accuracy is: 0.96394
+2024-04-28 11:58:20,392 - Model - INFO - eval mIoU of Teeth          0.667692
+2024-04-28 11:58:20,393 - Model - INFO - Epoch 61 test Accuracy: 0.891785  Class avg mIOU: 0.667692   Inctance avg mIOU: 0.667692
+2024-04-28 11:58:20,393 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:20,393 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:20,393 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:20,393 - Model - INFO - Epoch 61 (62/251):
+2024-04-28 11:58:20,393 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:21,611 - Model - INFO - Train accuracy is: 0.96682
+2024-04-28 11:58:21,923 - Model - INFO - eval mIoU of Teeth          0.669280
+2024-04-28 11:58:21,923 - Model - INFO - Epoch 62 test Accuracy: 0.893982  Class avg mIOU: 0.669280   Inctance avg mIOU: 0.669280
+2024-04-28 11:58:21,923 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:21,923 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:21,923 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:21,923 - Model - INFO - Epoch 62 (63/251):
+2024-04-28 11:58:21,923 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:23,135 - Model - INFO - Train accuracy is: 0.96687
+2024-04-28 11:58:23,454 - Model - INFO - eval mIoU of Teeth          0.670254
+2024-04-28 11:58:23,454 - Model - INFO - Epoch 63 test Accuracy: 0.894836  Class avg mIOU: 0.670254   Inctance avg mIOU: 0.670254
+2024-04-28 11:58:23,454 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:23,454 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:23,454 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:23,454 - Model - INFO - Epoch 63 (64/251):
+2024-04-28 11:58:23,454 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:24,708 - Model - INFO - Train accuracy is: 0.96565
+2024-04-28 11:58:25,007 - Model - INFO - eval mIoU of Teeth          0.666004
+2024-04-28 11:58:25,007 - Model - INFO - Epoch 64 test Accuracy: 0.893005  Class avg mIOU: 0.666004   Inctance avg mIOU: 0.666004
+2024-04-28 11:58:25,007 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:25,007 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:25,007 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:25,007 - Model - INFO - Epoch 64 (65/251):
+2024-04-28 11:58:25,007 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:26,287 - Model - INFO - Train accuracy is: 0.96727
+2024-04-28 11:58:26,593 - Model - INFO - eval mIoU of Teeth          0.660484
+2024-04-28 11:58:26,593 - Model - INFO - Epoch 65 test Accuracy: 0.891479  Class avg mIOU: 0.660484   Inctance avg mIOU: 0.660484
+2024-04-28 11:58:26,593 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:26,593 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:26,593 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:26,593 - Model - INFO - Epoch 65 (66/251):
+2024-04-28 11:58:26,593 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:27,806 - Model - INFO - Train accuracy is: 0.96511
+2024-04-28 11:58:28,137 - Model - INFO - eval mIoU of Teeth          0.674598
+2024-04-28 11:58:28,137 - Model - INFO - Epoch 66 test Accuracy: 0.897583  Class avg mIOU: 0.674598   Inctance avg mIOU: 0.674598
+2024-04-28 11:58:28,137 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:28,137 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:28,137 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:28,137 - Model - INFO - Epoch 66 (67/251):
+2024-04-28 11:58:28,137 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:29,347 - Model - INFO - Train accuracy is: 0.96562
+2024-04-28 11:58:29,640 - Model - INFO - eval mIoU of Teeth          0.665965
+2024-04-28 11:58:29,640 - Model - INFO - Epoch 67 test Accuracy: 0.887146  Class avg mIOU: 0.665965   Inctance avg mIOU: 0.665965
+2024-04-28 11:58:29,640 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:29,640 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:29,640 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:29,640 - Model - INFO - Epoch 67 (68/251):
+2024-04-28 11:58:29,640 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:30,863 - Model - INFO - Train accuracy is: 0.96602
+2024-04-28 11:58:31,152 - Model - INFO - eval mIoU of Teeth          0.663475
+2024-04-28 11:58:31,152 - Model - INFO - Epoch 68 test Accuracy: 0.892395  Class avg mIOU: 0.663475   Inctance avg mIOU: 0.663475
+2024-04-28 11:58:31,152 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:31,152 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:31,152 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:31,152 - Model - INFO - Epoch 68 (69/251):
+2024-04-28 11:58:31,152 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:32,362 - Model - INFO - Train accuracy is: 0.97023
+2024-04-28 11:58:32,646 - Model - INFO - eval mIoU of Teeth          0.667679
+2024-04-28 11:58:32,646 - Model - INFO - Epoch 69 test Accuracy: 0.897339  Class avg mIOU: 0.667679   Inctance avg mIOU: 0.667679
+2024-04-28 11:58:32,646 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:32,646 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:32,646 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:32,646 - Model - INFO - Epoch 69 (70/251):
+2024-04-28 11:58:32,646 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:33,862 - Model - INFO - Train accuracy is: 0.96539
+2024-04-28 11:58:34,149 - Model - INFO - eval mIoU of Teeth          0.669341
+2024-04-28 11:58:34,150 - Model - INFO - Epoch 70 test Accuracy: 0.899475  Class avg mIOU: 0.669341   Inctance avg mIOU: 0.669341
+2024-04-28 11:58:34,150 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:34,150 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:34,150 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:34,150 - Model - INFO - Epoch 70 (71/251):
+2024-04-28 11:58:34,150 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:35,360 - Model - INFO - Train accuracy is: 0.96527
+2024-04-28 11:58:35,654 - Model - INFO - eval mIoU of Teeth          0.662184
+2024-04-28 11:58:35,654 - Model - INFO - Epoch 71 test Accuracy: 0.890808  Class avg mIOU: 0.662184   Inctance avg mIOU: 0.662184
+2024-04-28 11:58:35,654 - Model - INFO - Best accuracy is: 0.90173
+2024-04-28 11:58:35,654 - Model - INFO - Best class avg mIOU is: 0.67670
+2024-04-28 11:58:35,654 - Model - INFO - Best inctance avg mIOU is: 0.67670
+2024-04-28 11:58:35,654 - Model - INFO - Epoch 71 (72/251):
+2024-04-28 11:58:35,654 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:36,921 - Model - INFO - Train accuracy is: 0.96761
+2024-04-28 11:58:37,267 - Model - INFO - eval mIoU of Teeth          0.688379
+2024-04-28 11:58:37,267 - Model - INFO - Epoch 72 test Accuracy: 0.905762  Class avg mIOU: 0.688379   Inctance avg mIOU: 0.688379
+2024-04-28 11:58:37,267 - Model - INFO - Save model...
+2024-04-28 11:58:37,267 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:58:37,325 - Model - INFO - Saving model....
+2024-04-28 11:58:37,325 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:37,325 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:37,325 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:37,325 - Model - INFO - Epoch 72 (73/251):
+2024-04-28 11:58:37,325 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:38,593 - Model - INFO - Train accuracy is: 0.96544
+2024-04-28 11:58:38,878 - Model - INFO - eval mIoU of Teeth          0.681021
+2024-04-28 11:58:38,878 - Model - INFO - Epoch 73 test Accuracy: 0.900940  Class avg mIOU: 0.681021   Inctance avg mIOU: 0.681021
+2024-04-28 11:58:38,878 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:38,878 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:38,878 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:38,878 - Model - INFO - Epoch 73 (74/251):
+2024-04-28 11:58:38,878 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:40,106 - Model - INFO - Train accuracy is: 0.96661
+2024-04-28 11:58:40,387 - Model - INFO - eval mIoU of Teeth          0.659579
+2024-04-28 11:58:40,387 - Model - INFO - Epoch 74 test Accuracy: 0.897400  Class avg mIOU: 0.659579   Inctance avg mIOU: 0.659579
+2024-04-28 11:58:40,387 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:40,387 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:40,387 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:40,387 - Model - INFO - Epoch 74 (75/251):
+2024-04-28 11:58:40,387 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:41,603 - Model - INFO - Train accuracy is: 0.96603
+2024-04-28 11:58:41,918 - Model - INFO - eval mIoU of Teeth          0.672109
+2024-04-28 11:58:41,918 - Model - INFO - Epoch 75 test Accuracy: 0.899170  Class avg mIOU: 0.672109   Inctance avg mIOU: 0.672109
+2024-04-28 11:58:41,918 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:41,918 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:41,918 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:41,918 - Model - INFO - Epoch 75 (76/251):
+2024-04-28 11:58:41,918 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:43,174 - Model - INFO - Train accuracy is: 0.96620
+2024-04-28 11:58:43,478 - Model - INFO - eval mIoU of Teeth          0.669247
+2024-04-28 11:58:43,479 - Model - INFO - Epoch 76 test Accuracy: 0.897827  Class avg mIOU: 0.669247   Inctance avg mIOU: 0.669247
+2024-04-28 11:58:43,479 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:43,479 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:43,479 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:43,479 - Model - INFO - Epoch 76 (77/251):
+2024-04-28 11:58:43,479 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:44,702 - Model - INFO - Train accuracy is: 0.96748
+2024-04-28 11:58:45,012 - Model - INFO - eval mIoU of Teeth          0.669478
+2024-04-28 11:58:45,012 - Model - INFO - Epoch 77 test Accuracy: 0.899292  Class avg mIOU: 0.669478   Inctance avg mIOU: 0.669478
+2024-04-28 11:58:45,012 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:45,012 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:45,012 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:45,012 - Model - INFO - Epoch 77 (78/251):
+2024-04-28 11:58:45,012 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:46,233 - Model - INFO - Train accuracy is: 0.97026
+2024-04-28 11:58:46,531 - Model - INFO - eval mIoU of Teeth          0.681034
+2024-04-28 11:58:46,531 - Model - INFO - Epoch 78 test Accuracy: 0.900513  Class avg mIOU: 0.681034   Inctance avg mIOU: 0.681034
+2024-04-28 11:58:46,531 - Model - INFO - Best accuracy is: 0.90576
+2024-04-28 11:58:46,531 - Model - INFO - Best class avg mIOU is: 0.68838
+2024-04-28 11:58:46,532 - Model - INFO - Best inctance avg mIOU is: 0.68838
+2024-04-28 11:58:46,532 - Model - INFO - Epoch 78 (79/251):
+2024-04-28 11:58:46,532 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:47,771 - Model - INFO - Train accuracy is: 0.96847
+2024-04-28 11:58:48,049 - Model - INFO - eval mIoU of Teeth          0.698106
+2024-04-28 11:58:48,049 - Model - INFO - Epoch 79 test Accuracy: 0.909302  Class avg mIOU: 0.698106   Inctance avg mIOU: 0.698106
+2024-04-28 11:58:48,049 - Model - INFO - Save model...
+2024-04-28 11:58:48,049 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:58:48,098 - Model - INFO - Saving model....
+2024-04-28 11:58:48,098 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:48,098 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:48,098 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:48,098 - Model - INFO - Epoch 79 (80/251):
+2024-04-28 11:58:48,098 - Model - INFO - Learning rate:0.000125
+2024-04-28 11:58:49,321 - Model - INFO - Train accuracy is: 0.96934
+2024-04-28 11:58:49,611 - Model - INFO - eval mIoU of Teeth          0.681913
+2024-04-28 11:58:49,611 - Model - INFO - Epoch 80 test Accuracy: 0.901672  Class avg mIOU: 0.681913   Inctance avg mIOU: 0.681913
+2024-04-28 11:58:49,611 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:49,611 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:49,611 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:49,611 - Model - INFO - Epoch 80 (81/251):
+2024-04-28 11:58:49,611 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:50,827 - Model - INFO - Train accuracy is: 0.96753
+2024-04-28 11:58:51,103 - Model - INFO - eval mIoU of Teeth          0.655816
+2024-04-28 11:58:51,103 - Model - INFO - Epoch 81 test Accuracy: 0.892944  Class avg mIOU: 0.655816   Inctance avg mIOU: 0.655816
+2024-04-28 11:58:51,103 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:51,103 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:51,103 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:51,103 - Model - INFO - Epoch 81 (82/251):
+2024-04-28 11:58:51,103 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:52,343 - Model - INFO - Train accuracy is: 0.96997
+2024-04-28 11:58:52,627 - Model - INFO - eval mIoU of Teeth          0.681093
+2024-04-28 11:58:52,627 - Model - INFO - Epoch 82 test Accuracy: 0.901184  Class avg mIOU: 0.681093   Inctance avg mIOU: 0.681093
+2024-04-28 11:58:52,627 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:52,627 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:52,627 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:52,627 - Model - INFO - Epoch 82 (83/251):
+2024-04-28 11:58:52,627 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:53,858 - Model - INFO - Train accuracy is: 0.96680
+2024-04-28 11:58:54,131 - Model - INFO - eval mIoU of Teeth          0.685885
+2024-04-28 11:58:54,131 - Model - INFO - Epoch 83 test Accuracy: 0.904236  Class avg mIOU: 0.685885   Inctance avg mIOU: 0.685885
+2024-04-28 11:58:54,131 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:54,131 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:54,131 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:54,131 - Model - INFO - Epoch 83 (84/251):
+2024-04-28 11:58:54,131 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:55,337 - Model - INFO - Train accuracy is: 0.96841
+2024-04-28 11:58:55,641 - Model - INFO - eval mIoU of Teeth          0.686099
+2024-04-28 11:58:55,642 - Model - INFO - Epoch 84 test Accuracy: 0.904114  Class avg mIOU: 0.686099   Inctance avg mIOU: 0.686099
+2024-04-28 11:58:55,642 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:55,642 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:55,642 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:55,642 - Model - INFO - Epoch 84 (85/251):
+2024-04-28 11:58:55,642 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:56,887 - Model - INFO - Train accuracy is: 0.96897
+2024-04-28 11:58:57,172 - Model - INFO - eval mIoU of Teeth          0.672311
+2024-04-28 11:58:57,172 - Model - INFO - Epoch 85 test Accuracy: 0.894226  Class avg mIOU: 0.672311   Inctance avg mIOU: 0.672311
+2024-04-28 11:58:57,172 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:57,172 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:57,172 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:57,172 - Model - INFO - Epoch 85 (86/251):
+2024-04-28 11:58:57,172 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:58,399 - Model - INFO - Train accuracy is: 0.97007
+2024-04-28 11:58:58,690 - Model - INFO - eval mIoU of Teeth          0.673269
+2024-04-28 11:58:58,690 - Model - INFO - Epoch 86 test Accuracy: 0.895752  Class avg mIOU: 0.673269   Inctance avg mIOU: 0.673269
+2024-04-28 11:58:58,690 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:58:58,690 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:58:58,690 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:58:58,690 - Model - INFO - Epoch 86 (87/251):
+2024-04-28 11:58:58,690 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:58:59,924 - Model - INFO - Train accuracy is: 0.97020
+2024-04-28 11:59:00,219 - Model - INFO - eval mIoU of Teeth          0.689300
+2024-04-28 11:59:00,219 - Model - INFO - Epoch 87 test Accuracy: 0.901794  Class avg mIOU: 0.689300   Inctance avg mIOU: 0.689300
+2024-04-28 11:59:00,219 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:00,219 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:00,219 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:00,219 - Model - INFO - Epoch 87 (88/251):
+2024-04-28 11:59:00,219 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:01,445 - Model - INFO - Train accuracy is: 0.96885
+2024-04-28 11:59:01,745 - Model - INFO - eval mIoU of Teeth          0.694321
+2024-04-28 11:59:01,745 - Model - INFO - Epoch 88 test Accuracy: 0.898743  Class avg mIOU: 0.694321   Inctance avg mIOU: 0.694321
+2024-04-28 11:59:01,745 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:01,745 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:01,745 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:01,745 - Model - INFO - Epoch 88 (89/251):
+2024-04-28 11:59:01,745 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:02,974 - Model - INFO - Train accuracy is: 0.96982
+2024-04-28 11:59:03,275 - Model - INFO - eval mIoU of Teeth          0.688651
+2024-04-28 11:59:03,275 - Model - INFO - Epoch 89 test Accuracy: 0.897339  Class avg mIOU: 0.688651   Inctance avg mIOU: 0.688651
+2024-04-28 11:59:03,275 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:03,275 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:03,275 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:03,276 - Model - INFO - Epoch 89 (90/251):
+2024-04-28 11:59:03,276 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:04,507 - Model - INFO - Train accuracy is: 0.96970
+2024-04-28 11:59:04,834 - Model - INFO - eval mIoU of Teeth          0.688623
+2024-04-28 11:59:04,834 - Model - INFO - Epoch 90 test Accuracy: 0.901550  Class avg mIOU: 0.688623   Inctance avg mIOU: 0.688623
+2024-04-28 11:59:04,834 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:04,834 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:04,834 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:04,835 - Model - INFO - Epoch 90 (91/251):
+2024-04-28 11:59:04,835 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:06,074 - Model - INFO - Train accuracy is: 0.97046
+2024-04-28 11:59:06,382 - Model - INFO - eval mIoU of Teeth          0.664891
+2024-04-28 11:59:06,382 - Model - INFO - Epoch 91 test Accuracy: 0.893616  Class avg mIOU: 0.664891   Inctance avg mIOU: 0.664891
+2024-04-28 11:59:06,382 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:06,382 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:06,382 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:06,382 - Model - INFO - Epoch 91 (92/251):
+2024-04-28 11:59:06,382 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:07,612 - Model - INFO - Train accuracy is: 0.96818
+2024-04-28 11:59:07,924 - Model - INFO - eval mIoU of Teeth          0.689845
+2024-04-28 11:59:07,924 - Model - INFO - Epoch 92 test Accuracy: 0.900696  Class avg mIOU: 0.689845   Inctance avg mIOU: 0.689845
+2024-04-28 11:59:07,924 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:07,924 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:07,924 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:07,924 - Model - INFO - Epoch 92 (93/251):
+2024-04-28 11:59:07,924 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:09,152 - Model - INFO - Train accuracy is: 0.96967
+2024-04-28 11:59:09,448 - Model - INFO - eval mIoU of Teeth          0.665067
+2024-04-28 11:59:09,448 - Model - INFO - Epoch 93 test Accuracy: 0.888916  Class avg mIOU: 0.665067   Inctance avg mIOU: 0.665067
+2024-04-28 11:59:09,448 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:09,448 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:09,448 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:09,448 - Model - INFO - Epoch 93 (94/251):
+2024-04-28 11:59:09,448 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:10,643 - Model - INFO - Train accuracy is: 0.96846
+2024-04-28 11:59:10,937 - Model - INFO - eval mIoU of Teeth          0.673200
+2024-04-28 11:59:10,937 - Model - INFO - Epoch 94 test Accuracy: 0.897522  Class avg mIOU: 0.673200   Inctance avg mIOU: 0.673200
+2024-04-28 11:59:10,937 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:10,937 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:10,937 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:10,937 - Model - INFO - Epoch 94 (95/251):
+2024-04-28 11:59:10,937 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:12,178 - Model - INFO - Train accuracy is: 0.96765
+2024-04-28 11:59:12,476 - Model - INFO - eval mIoU of Teeth          0.679962
+2024-04-28 11:59:12,476 - Model - INFO - Epoch 95 test Accuracy: 0.893188  Class avg mIOU: 0.679962   Inctance avg mIOU: 0.679962
+2024-04-28 11:59:12,476 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:12,476 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:12,476 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:12,476 - Model - INFO - Epoch 95 (96/251):
+2024-04-28 11:59:12,476 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:13,731 - Model - INFO - Train accuracy is: 0.97078
+2024-04-28 11:59:14,040 - Model - INFO - eval mIoU of Teeth          0.667487
+2024-04-28 11:59:14,040 - Model - INFO - Epoch 96 test Accuracy: 0.891174  Class avg mIOU: 0.667487   Inctance avg mIOU: 0.667487
+2024-04-28 11:59:14,040 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:14,041 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:14,041 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:14,041 - Model - INFO - Epoch 96 (97/251):
+2024-04-28 11:59:14,041 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:15,277 - Model - INFO - Train accuracy is: 0.96871
+2024-04-28 11:59:15,587 - Model - INFO - eval mIoU of Teeth          0.679244
+2024-04-28 11:59:15,588 - Model - INFO - Epoch 97 test Accuracy: 0.893372  Class avg mIOU: 0.679244   Inctance avg mIOU: 0.679244
+2024-04-28 11:59:15,588 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:15,588 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:15,588 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:15,588 - Model - INFO - Epoch 97 (98/251):
+2024-04-28 11:59:15,588 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:16,821 - Model - INFO - Train accuracy is: 0.97036
+2024-04-28 11:59:17,126 - Model - INFO - eval mIoU of Teeth          0.673808
+2024-04-28 11:59:17,126 - Model - INFO - Epoch 98 test Accuracy: 0.893616  Class avg mIOU: 0.673808   Inctance avg mIOU: 0.673808
+2024-04-28 11:59:17,126 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:17,126 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:17,127 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:17,127 - Model - INFO - Epoch 98 (99/251):
+2024-04-28 11:59:17,127 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:18,343 - Model - INFO - Train accuracy is: 0.96937
+2024-04-28 11:59:18,637 - Model - INFO - eval mIoU of Teeth          0.696013
+2024-04-28 11:59:18,637 - Model - INFO - Epoch 99 test Accuracy: 0.902588  Class avg mIOU: 0.696013   Inctance avg mIOU: 0.696013
+2024-04-28 11:59:18,637 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:18,637 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:18,637 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:18,637 - Model - INFO - Epoch 99 (100/251):
+2024-04-28 11:59:18,637 - Model - INFO - Learning rate:0.000063
+2024-04-28 11:59:19,855 - Model - INFO - Train accuracy is: 0.97009
+2024-04-28 11:59:20,134 - Model - INFO - eval mIoU of Teeth          0.696321
+2024-04-28 11:59:20,134 - Model - INFO - Epoch 100 test Accuracy: 0.899902  Class avg mIOU: 0.696321   Inctance avg mIOU: 0.696321
+2024-04-28 11:59:20,135 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:20,135 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:20,135 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:20,135 - Model - INFO - Epoch 100 (101/251):
+2024-04-28 11:59:20,135 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:21,376 - Model - INFO - Train accuracy is: 0.96947
+2024-04-28 11:59:21,672 - Model - INFO - eval mIoU of Teeth          0.687347
+2024-04-28 11:59:21,672 - Model - INFO - Epoch 101 test Accuracy: 0.891174  Class avg mIOU: 0.687347   Inctance avg mIOU: 0.687347
+2024-04-28 11:59:21,672 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:21,672 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:21,672 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:21,672 - Model - INFO - Epoch 101 (102/251):
+2024-04-28 11:59:21,672 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:22,899 - Model - INFO - Train accuracy is: 0.96849
+2024-04-28 11:59:23,200 - Model - INFO - eval mIoU of Teeth          0.675699
+2024-04-28 11:59:23,200 - Model - INFO - Epoch 102 test Accuracy: 0.894775  Class avg mIOU: 0.675699   Inctance avg mIOU: 0.675699
+2024-04-28 11:59:23,200 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:23,200 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:23,200 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:23,200 - Model - INFO - Epoch 102 (103/251):
+2024-04-28 11:59:23,200 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:24,406 - Model - INFO - Train accuracy is: 0.96925
+2024-04-28 11:59:24,721 - Model - INFO - eval mIoU of Teeth          0.675425
+2024-04-28 11:59:24,722 - Model - INFO - Epoch 103 test Accuracy: 0.892456  Class avg mIOU: 0.675425   Inctance avg mIOU: 0.675425
+2024-04-28 11:59:24,722 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:24,722 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:24,722 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:24,722 - Model - INFO - Epoch 103 (104/251):
+2024-04-28 11:59:24,722 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:25,971 - Model - INFO - Train accuracy is: 0.97107
+2024-04-28 11:59:26,268 - Model - INFO - eval mIoU of Teeth          0.686374
+2024-04-28 11:59:26,269 - Model - INFO - Epoch 104 test Accuracy: 0.898254  Class avg mIOU: 0.686374   Inctance avg mIOU: 0.686374
+2024-04-28 11:59:26,269 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:26,269 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:26,269 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:26,269 - Model - INFO - Epoch 104 (105/251):
+2024-04-28 11:59:26,269 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:27,522 - Model - INFO - Train accuracy is: 0.96908
+2024-04-28 11:59:27,817 - Model - INFO - eval mIoU of Teeth          0.678989
+2024-04-28 11:59:27,817 - Model - INFO - Epoch 105 test Accuracy: 0.900940  Class avg mIOU: 0.678989   Inctance avg mIOU: 0.678989
+2024-04-28 11:59:27,817 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:27,817 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:27,817 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:27,817 - Model - INFO - Epoch 105 (106/251):
+2024-04-28 11:59:27,817 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:29,058 - Model - INFO - Train accuracy is: 0.97147
+2024-04-28 11:59:29,376 - Model - INFO - eval mIoU of Teeth          0.676281
+2024-04-28 11:59:29,376 - Model - INFO - Epoch 106 test Accuracy: 0.894287  Class avg mIOU: 0.676281   Inctance avg mIOU: 0.676281
+2024-04-28 11:59:29,376 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:29,376 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:29,376 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:29,376 - Model - INFO - Epoch 106 (107/251):
+2024-04-28 11:59:29,376 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:30,623 - Model - INFO - Train accuracy is: 0.97067
+2024-04-28 11:59:30,926 - Model - INFO - eval mIoU of Teeth          0.675567
+2024-04-28 11:59:30,926 - Model - INFO - Epoch 107 test Accuracy: 0.895752  Class avg mIOU: 0.675567   Inctance avg mIOU: 0.675567
+2024-04-28 11:59:30,926 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:30,926 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:30,926 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:30,926 - Model - INFO - Epoch 107 (108/251):
+2024-04-28 11:59:30,926 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:32,163 - Model - INFO - Train accuracy is: 0.96886
+2024-04-28 11:59:32,475 - Model - INFO - eval mIoU of Teeth          0.673074
+2024-04-28 11:59:32,475 - Model - INFO - Epoch 108 test Accuracy: 0.900513  Class avg mIOU: 0.673074   Inctance avg mIOU: 0.673074
+2024-04-28 11:59:32,475 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:32,475 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:32,475 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:32,475 - Model - INFO - Epoch 108 (109/251):
+2024-04-28 11:59:32,475 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:33,701 - Model - INFO - Train accuracy is: 0.97035
+2024-04-28 11:59:33,994 - Model - INFO - eval mIoU of Teeth          0.682791
+2024-04-28 11:59:33,994 - Model - INFO - Epoch 109 test Accuracy: 0.898254  Class avg mIOU: 0.682791   Inctance avg mIOU: 0.682791
+2024-04-28 11:59:33,994 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:33,994 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:33,994 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:33,994 - Model - INFO - Epoch 109 (110/251):
+2024-04-28 11:59:33,994 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:35,212 - Model - INFO - Train accuracy is: 0.96971
+2024-04-28 11:59:35,526 - Model - INFO - eval mIoU of Teeth          0.687239
+2024-04-28 11:59:35,526 - Model - INFO - Epoch 110 test Accuracy: 0.894897  Class avg mIOU: 0.687239   Inctance avg mIOU: 0.687239
+2024-04-28 11:59:35,526 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:35,526 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:35,526 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:35,526 - Model - INFO - Epoch 110 (111/251):
+2024-04-28 11:59:35,526 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:36,768 - Model - INFO - Train accuracy is: 0.97169
+2024-04-28 11:59:37,071 - Model - INFO - eval mIoU of Teeth          0.689433
+2024-04-28 11:59:37,071 - Model - INFO - Epoch 111 test Accuracy: 0.902039  Class avg mIOU: 0.689433   Inctance avg mIOU: 0.689433
+2024-04-28 11:59:37,071 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:37,071 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:37,071 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:37,071 - Model - INFO - Epoch 111 (112/251):
+2024-04-28 11:59:37,071 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:38,326 - Model - INFO - Train accuracy is: 0.96459
+2024-04-28 11:59:38,646 - Model - INFO - eval mIoU of Teeth          0.685615
+2024-04-28 11:59:38,647 - Model - INFO - Epoch 112 test Accuracy: 0.904297  Class avg mIOU: 0.685615   Inctance avg mIOU: 0.685615
+2024-04-28 11:59:38,647 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:38,647 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:38,647 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:38,647 - Model - INFO - Epoch 112 (113/251):
+2024-04-28 11:59:38,647 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:39,885 - Model - INFO - Train accuracy is: 0.97242
+2024-04-28 11:59:40,202 - Model - INFO - eval mIoU of Teeth          0.686972
+2024-04-28 11:59:40,202 - Model - INFO - Epoch 113 test Accuracy: 0.895630  Class avg mIOU: 0.686972   Inctance avg mIOU: 0.686972
+2024-04-28 11:59:40,202 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:40,202 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:40,202 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:40,202 - Model - INFO - Epoch 113 (114/251):
+2024-04-28 11:59:40,202 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:41,443 - Model - INFO - Train accuracy is: 0.97277
+2024-04-28 11:59:41,768 - Model - INFO - eval mIoU of Teeth          0.681794
+2024-04-28 11:59:41,769 - Model - INFO - Epoch 114 test Accuracy: 0.898804  Class avg mIOU: 0.681794   Inctance avg mIOU: 0.681794
+2024-04-28 11:59:41,769 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:41,769 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:41,769 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:41,769 - Model - INFO - Epoch 114 (115/251):
+2024-04-28 11:59:41,769 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:42,999 - Model - INFO - Train accuracy is: 0.97025
+2024-04-28 11:59:43,295 - Model - INFO - eval mIoU of Teeth          0.687900
+2024-04-28 11:59:43,296 - Model - INFO - Epoch 115 test Accuracy: 0.903931  Class avg mIOU: 0.687900   Inctance avg mIOU: 0.687900
+2024-04-28 11:59:43,296 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:43,296 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:43,296 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:43,296 - Model - INFO - Epoch 115 (116/251):
+2024-04-28 11:59:43,296 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:44,535 - Model - INFO - Train accuracy is: 0.97020
+2024-04-28 11:59:44,828 - Model - INFO - eval mIoU of Teeth          0.685277
+2024-04-28 11:59:44,828 - Model - INFO - Epoch 116 test Accuracy: 0.899231  Class avg mIOU: 0.685277   Inctance avg mIOU: 0.685277
+2024-04-28 11:59:44,828 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:44,828 - Model - INFO - Best class avg mIOU is: 0.69811
+2024-04-28 11:59:44,828 - Model - INFO - Best inctance avg mIOU is: 0.69811
+2024-04-28 11:59:44,828 - Model - INFO - Epoch 116 (117/251):
+2024-04-28 11:59:44,828 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:46,080 - Model - INFO - Train accuracy is: 0.97020
+2024-04-28 11:59:46,370 - Model - INFO - eval mIoU of Teeth          0.698280
+2024-04-28 11:59:46,370 - Model - INFO - Epoch 117 test Accuracy: 0.902405  Class avg mIOU: 0.698280   Inctance avg mIOU: 0.698280
+2024-04-28 11:59:46,370 - Model - INFO - Save model...
+2024-04-28 11:59:46,370 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 11:59:46,421 - Model - INFO - Saving model....
+2024-04-28 11:59:46,421 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:46,421 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:46,421 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:46,421 - Model - INFO - Epoch 117 (118/251):
+2024-04-28 11:59:46,421 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:47,647 - Model - INFO - Train accuracy is: 0.97180
+2024-04-28 11:59:47,945 - Model - INFO - eval mIoU of Teeth          0.694803
+2024-04-28 11:59:47,945 - Model - INFO - Epoch 118 test Accuracy: 0.904297  Class avg mIOU: 0.694803   Inctance avg mIOU: 0.694803
+2024-04-28 11:59:47,945 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:47,945 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:47,945 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:47,945 - Model - INFO - Epoch 118 (119/251):
+2024-04-28 11:59:47,945 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:49,183 - Model - INFO - Train accuracy is: 0.96918
+2024-04-28 11:59:49,471 - Model - INFO - eval mIoU of Teeth          0.680792
+2024-04-28 11:59:49,472 - Model - INFO - Epoch 119 test Accuracy: 0.899109  Class avg mIOU: 0.680792   Inctance avg mIOU: 0.680792
+2024-04-28 11:59:49,472 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:49,472 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:49,472 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:49,472 - Model - INFO - Epoch 119 (120/251):
+2024-04-28 11:59:49,472 - Model - INFO - Learning rate:0.000031
+2024-04-28 11:59:50,703 - Model - INFO - Train accuracy is: 0.97018
+2024-04-28 11:59:51,014 - Model - INFO - eval mIoU of Teeth          0.682871
+2024-04-28 11:59:51,014 - Model - INFO - Epoch 120 test Accuracy: 0.898987  Class avg mIOU: 0.682871   Inctance avg mIOU: 0.682871
+2024-04-28 11:59:51,014 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:51,014 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:51,014 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:51,014 - Model - INFO - Epoch 120 (121/251):
+2024-04-28 11:59:51,014 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:52,248 - Model - INFO - Train accuracy is: 0.97286
+2024-04-28 11:59:52,546 - Model - INFO - eval mIoU of Teeth          0.691848
+2024-04-28 11:59:52,546 - Model - INFO - Epoch 121 test Accuracy: 0.903259  Class avg mIOU: 0.691848   Inctance avg mIOU: 0.691848
+2024-04-28 11:59:52,546 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:52,546 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:52,546 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:52,546 - Model - INFO - Epoch 121 (122/251):
+2024-04-28 11:59:52,546 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:53,758 - Model - INFO - Train accuracy is: 0.97173
+2024-04-28 11:59:54,046 - Model - INFO - eval mIoU of Teeth          0.696122
+2024-04-28 11:59:54,046 - Model - INFO - Epoch 122 test Accuracy: 0.899597  Class avg mIOU: 0.696122   Inctance avg mIOU: 0.696122
+2024-04-28 11:59:54,046 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:54,046 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:54,046 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:54,046 - Model - INFO - Epoch 122 (123/251):
+2024-04-28 11:59:54,046 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:55,303 - Model - INFO - Train accuracy is: 0.97040
+2024-04-28 11:59:55,582 - Model - INFO - eval mIoU of Teeth          0.680287
+2024-04-28 11:59:55,582 - Model - INFO - Epoch 123 test Accuracy: 0.898193  Class avg mIOU: 0.680287   Inctance avg mIOU: 0.680287
+2024-04-28 11:59:55,582 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:55,582 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:55,582 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:55,582 - Model - INFO - Epoch 123 (124/251):
+2024-04-28 11:59:55,582 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:56,817 - Model - INFO - Train accuracy is: 0.97153
+2024-04-28 11:59:57,113 - Model - INFO - eval mIoU of Teeth          0.663252
+2024-04-28 11:59:57,113 - Model - INFO - Epoch 124 test Accuracy: 0.891724  Class avg mIOU: 0.663252   Inctance avg mIOU: 0.663252
+2024-04-28 11:59:57,113 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:57,113 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:57,113 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:57,113 - Model - INFO - Epoch 124 (125/251):
+2024-04-28 11:59:57,113 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:58,369 - Model - INFO - Train accuracy is: 0.97085
+2024-04-28 11:59:58,654 - Model - INFO - eval mIoU of Teeth          0.678829
+2024-04-28 11:59:58,655 - Model - INFO - Epoch 125 test Accuracy: 0.896179  Class avg mIOU: 0.678829   Inctance avg mIOU: 0.678829
+2024-04-28 11:59:58,655 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 11:59:58,655 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 11:59:58,655 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 11:59:58,655 - Model - INFO - Epoch 125 (126/251):
+2024-04-28 11:59:58,655 - Model - INFO - Learning rate:0.000016
+2024-04-28 11:59:59,885 - Model - INFO - Train accuracy is: 0.97126
+2024-04-28 12:00:00,173 - Model - INFO - eval mIoU of Teeth          0.695683
+2024-04-28 12:00:00,173 - Model - INFO - Epoch 126 test Accuracy: 0.898499  Class avg mIOU: 0.695683   Inctance avg mIOU: 0.695683
+2024-04-28 12:00:00,173 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:00,173 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:00,173 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:00,173 - Model - INFO - Epoch 126 (127/251):
+2024-04-28 12:00:00,173 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:01,402 - Model - INFO - Train accuracy is: 0.97078
+2024-04-28 12:00:01,721 - Model - INFO - eval mIoU of Teeth          0.688826
+2024-04-28 12:00:01,722 - Model - INFO - Epoch 127 test Accuracy: 0.903381  Class avg mIOU: 0.688826   Inctance avg mIOU: 0.688826
+2024-04-28 12:00:01,722 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:01,722 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:01,722 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:01,722 - Model - INFO - Epoch 127 (128/251):
+2024-04-28 12:00:01,722 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:02,970 - Model - INFO - Train accuracy is: 0.97102
+2024-04-28 12:00:03,294 - Model - INFO - eval mIoU of Teeth          0.679013
+2024-04-28 12:00:03,295 - Model - INFO - Epoch 128 test Accuracy: 0.900391  Class avg mIOU: 0.679013   Inctance avg mIOU: 0.679013
+2024-04-28 12:00:03,295 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:03,295 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:03,295 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:03,295 - Model - INFO - Epoch 128 (129/251):
+2024-04-28 12:00:03,295 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:04,530 - Model - INFO - Train accuracy is: 0.97174
+2024-04-28 12:00:04,820 - Model - INFO - eval mIoU of Teeth          0.687861
+2024-04-28 12:00:04,820 - Model - INFO - Epoch 129 test Accuracy: 0.903076  Class avg mIOU: 0.687861   Inctance avg mIOU: 0.687861
+2024-04-28 12:00:04,820 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:04,820 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:04,820 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:04,820 - Model - INFO - Epoch 129 (130/251):
+2024-04-28 12:00:04,820 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:06,063 - Model - INFO - Train accuracy is: 0.96987
+2024-04-28 12:00:06,361 - Model - INFO - eval mIoU of Teeth          0.679451
+2024-04-28 12:00:06,361 - Model - INFO - Epoch 130 test Accuracy: 0.897095  Class avg mIOU: 0.679451   Inctance avg mIOU: 0.679451
+2024-04-28 12:00:06,361 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:06,361 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:06,361 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:06,361 - Model - INFO - Epoch 130 (131/251):
+2024-04-28 12:00:06,361 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:07,606 - Model - INFO - Train accuracy is: 0.97214
+2024-04-28 12:00:07,898 - Model - INFO - eval mIoU of Teeth          0.681330
+2024-04-28 12:00:07,898 - Model - INFO - Epoch 131 test Accuracy: 0.895630  Class avg mIOU: 0.681330   Inctance avg mIOU: 0.681330
+2024-04-28 12:00:07,898 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:07,898 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:07,898 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:07,898 - Model - INFO - Epoch 131 (132/251):
+2024-04-28 12:00:07,898 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:09,128 - Model - INFO - Train accuracy is: 0.96860
+2024-04-28 12:00:09,443 - Model - INFO - eval mIoU of Teeth          0.684092
+2024-04-28 12:00:09,444 - Model - INFO - Epoch 132 test Accuracy: 0.896423  Class avg mIOU: 0.684092   Inctance avg mIOU: 0.684092
+2024-04-28 12:00:09,444 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:09,444 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:09,444 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:09,444 - Model - INFO - Epoch 132 (133/251):
+2024-04-28 12:00:09,444 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:10,753 - Model - INFO - Train accuracy is: 0.96940
+2024-04-28 12:00:11,066 - Model - INFO - eval mIoU of Teeth          0.692117
+2024-04-28 12:00:11,066 - Model - INFO - Epoch 133 test Accuracy: 0.903015  Class avg mIOU: 0.692117   Inctance avg mIOU: 0.692117
+2024-04-28 12:00:11,066 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:11,066 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:11,066 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:11,066 - Model - INFO - Epoch 133 (134/251):
+2024-04-28 12:00:11,066 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:12,355 - Model - INFO - Train accuracy is: 0.97117
+2024-04-28 12:00:12,649 - Model - INFO - eval mIoU of Teeth          0.692826
+2024-04-28 12:00:12,649 - Model - INFO - Epoch 134 test Accuracy: 0.901794  Class avg mIOU: 0.692826   Inctance avg mIOU: 0.692826
+2024-04-28 12:00:12,650 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:12,650 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:12,650 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:12,650 - Model - INFO - Epoch 134 (135/251):
+2024-04-28 12:00:12,650 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:14,032 - Model - INFO - Train accuracy is: 0.97222
+2024-04-28 12:00:14,324 - Model - INFO - eval mIoU of Teeth          0.685627
+2024-04-28 12:00:14,324 - Model - INFO - Epoch 135 test Accuracy: 0.897278  Class avg mIOU: 0.685627   Inctance avg mIOU: 0.685627
+2024-04-28 12:00:14,324 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:14,324 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:14,324 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:14,324 - Model - INFO - Epoch 135 (136/251):
+2024-04-28 12:00:14,324 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:15,556 - Model - INFO - Train accuracy is: 0.97010
+2024-04-28 12:00:15,867 - Model - INFO - eval mIoU of Teeth          0.682153
+2024-04-28 12:00:15,867 - Model - INFO - Epoch 136 test Accuracy: 0.898682  Class avg mIOU: 0.682153   Inctance avg mIOU: 0.682153
+2024-04-28 12:00:15,867 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:15,867 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:15,867 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:15,867 - Model - INFO - Epoch 136 (137/251):
+2024-04-28 12:00:15,867 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:17,141 - Model - INFO - Train accuracy is: 0.97015
+2024-04-28 12:00:17,446 - Model - INFO - eval mIoU of Teeth          0.681589
+2024-04-28 12:00:17,446 - Model - INFO - Epoch 137 test Accuracy: 0.899902  Class avg mIOU: 0.681589   Inctance avg mIOU: 0.681589
+2024-04-28 12:00:17,446 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:17,446 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:17,446 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:17,446 - Model - INFO - Epoch 137 (138/251):
+2024-04-28 12:00:17,446 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:18,742 - Model - INFO - Train accuracy is: 0.97156
+2024-04-28 12:00:19,053 - Model - INFO - eval mIoU of Teeth          0.693679
+2024-04-28 12:00:19,053 - Model - INFO - Epoch 138 test Accuracy: 0.903625  Class avg mIOU: 0.693679   Inctance avg mIOU: 0.693679
+2024-04-28 12:00:19,053 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:19,053 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:19,053 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:19,053 - Model - INFO - Epoch 138 (139/251):
+2024-04-28 12:00:19,053 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:20,367 - Model - INFO - Train accuracy is: 0.97108
+2024-04-28 12:00:20,682 - Model - INFO - eval mIoU of Teeth          0.684636
+2024-04-28 12:00:20,682 - Model - INFO - Epoch 139 test Accuracy: 0.896423  Class avg mIOU: 0.684636   Inctance avg mIOU: 0.684636
+2024-04-28 12:00:20,682 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:20,682 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:20,682 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:20,682 - Model - INFO - Epoch 139 (140/251):
+2024-04-28 12:00:20,682 - Model - INFO - Learning rate:0.000016
+2024-04-28 12:00:21,949 - Model - INFO - Train accuracy is: 0.97225
+2024-04-28 12:00:22,246 - Model - INFO - eval mIoU of Teeth          0.687064
+2024-04-28 12:00:22,247 - Model - INFO - Epoch 140 test Accuracy: 0.899963  Class avg mIOU: 0.687064   Inctance avg mIOU: 0.687064
+2024-04-28 12:00:22,247 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:22,247 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:22,247 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:22,247 - Model - INFO - Epoch 140 (141/251):
+2024-04-28 12:00:22,247 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:23,496 - Model - INFO - Train accuracy is: 0.96942
+2024-04-28 12:00:23,799 - Model - INFO - eval mIoU of Teeth          0.693560
+2024-04-28 12:00:23,799 - Model - INFO - Epoch 141 test Accuracy: 0.903015  Class avg mIOU: 0.693560   Inctance avg mIOU: 0.693560
+2024-04-28 12:00:23,799 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:23,799 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:23,799 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:23,799 - Model - INFO - Epoch 141 (142/251):
+2024-04-28 12:00:23,799 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:25,064 - Model - INFO - Train accuracy is: 0.97061
+2024-04-28 12:00:25,369 - Model - INFO - eval mIoU of Teeth          0.677467
+2024-04-28 12:00:25,370 - Model - INFO - Epoch 142 test Accuracy: 0.893127  Class avg mIOU: 0.677467   Inctance avg mIOU: 0.677467
+2024-04-28 12:00:25,370 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:25,370 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:25,370 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:25,370 - Model - INFO - Epoch 142 (143/251):
+2024-04-28 12:00:25,370 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:26,629 - Model - INFO - Train accuracy is: 0.97185
+2024-04-28 12:00:26,940 - Model - INFO - eval mIoU of Teeth          0.678993
+2024-04-28 12:00:26,940 - Model - INFO - Epoch 143 test Accuracy: 0.900757  Class avg mIOU: 0.678993   Inctance avg mIOU: 0.678993
+2024-04-28 12:00:26,940 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:26,940 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:26,940 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:26,941 - Model - INFO - Epoch 143 (144/251):
+2024-04-28 12:00:26,941 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:28,193 - Model - INFO - Train accuracy is: 0.97114
+2024-04-28 12:00:28,481 - Model - INFO - eval mIoU of Teeth          0.688513
+2024-04-28 12:00:28,481 - Model - INFO - Epoch 144 test Accuracy: 0.898804  Class avg mIOU: 0.688513   Inctance avg mIOU: 0.688513
+2024-04-28 12:00:28,482 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:28,482 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:28,482 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:28,482 - Model - INFO - Epoch 144 (145/251):
+2024-04-28 12:00:28,482 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:29,756 - Model - INFO - Train accuracy is: 0.97201
+2024-04-28 12:00:30,047 - Model - INFO - eval mIoU of Teeth          0.685994
+2024-04-28 12:00:30,048 - Model - INFO - Epoch 145 test Accuracy: 0.897644  Class avg mIOU: 0.685994   Inctance avg mIOU: 0.685994
+2024-04-28 12:00:30,048 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:30,048 - Model - INFO - Best class avg mIOU is: 0.69828
+2024-04-28 12:00:30,048 - Model - INFO - Best inctance avg mIOU is: 0.69828
+2024-04-28 12:00:30,048 - Model - INFO - Epoch 145 (146/251):
+2024-04-28 12:00:30,048 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:31,275 - Model - INFO - Train accuracy is: 0.97261
+2024-04-28 12:00:31,572 - Model - INFO - eval mIoU of Teeth          0.702587
+2024-04-28 12:00:31,572 - Model - INFO - Epoch 146 test Accuracy: 0.901184  Class avg mIOU: 0.702587   Inctance avg mIOU: 0.702587
+2024-04-28 12:00:31,572 - Model - INFO - Save model...
+2024-04-28 12:00:31,572 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 12:00:31,627 - Model - INFO - Saving model....
+2024-04-28 12:00:31,628 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:31,628 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:31,628 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:31,628 - Model - INFO - Epoch 146 (147/251):
+2024-04-28 12:00:31,628 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:32,861 - Model - INFO - Train accuracy is: 0.97150
+2024-04-28 12:00:33,139 - Model - INFO - eval mIoU of Teeth          0.672704
+2024-04-28 12:00:33,139 - Model - INFO - Epoch 147 test Accuracy: 0.898499  Class avg mIOU: 0.672704   Inctance avg mIOU: 0.672704
+2024-04-28 12:00:33,139 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:33,139 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:33,139 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:33,139 - Model - INFO - Epoch 147 (148/251):
+2024-04-28 12:00:33,139 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:34,412 - Model - INFO - Train accuracy is: 0.97146
+2024-04-28 12:00:34,704 - Model - INFO - eval mIoU of Teeth          0.691803
+2024-04-28 12:00:34,704 - Model - INFO - Epoch 148 test Accuracy: 0.900757  Class avg mIOU: 0.691803   Inctance avg mIOU: 0.691803
+2024-04-28 12:00:34,704 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:34,704 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:34,704 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:34,704 - Model - INFO - Epoch 148 (149/251):
+2024-04-28 12:00:34,704 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:36,011 - Model - INFO - Train accuracy is: 0.97030
+2024-04-28 12:00:36,312 - Model - INFO - eval mIoU of Teeth          0.682420
+2024-04-28 12:00:36,312 - Model - INFO - Epoch 149 test Accuracy: 0.892151  Class avg mIOU: 0.682420   Inctance avg mIOU: 0.682420
+2024-04-28 12:00:36,312 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:36,312 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:36,312 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:36,312 - Model - INFO - Epoch 149 (150/251):
+2024-04-28 12:00:36,313 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:37,555 - Model - INFO - Train accuracy is: 0.97239
+2024-04-28 12:00:37,856 - Model - INFO - eval mIoU of Teeth          0.686303
+2024-04-28 12:00:37,857 - Model - INFO - Epoch 150 test Accuracy: 0.899719  Class avg mIOU: 0.686303   Inctance avg mIOU: 0.686303
+2024-04-28 12:00:37,857 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:37,857 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:37,857 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:37,857 - Model - INFO - Epoch 150 (151/251):
+2024-04-28 12:00:37,857 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:39,098 - Model - INFO - Train accuracy is: 0.97051
+2024-04-28 12:00:39,396 - Model - INFO - eval mIoU of Teeth          0.680448
+2024-04-28 12:00:39,397 - Model - INFO - Epoch 151 test Accuracy: 0.896179  Class avg mIOU: 0.680448   Inctance avg mIOU: 0.680448
+2024-04-28 12:00:39,397 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:39,397 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:39,397 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:39,397 - Model - INFO - Epoch 151 (152/251):
+2024-04-28 12:00:39,397 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:40,640 - Model - INFO - Train accuracy is: 0.97000
+2024-04-28 12:00:40,979 - Model - INFO - eval mIoU of Teeth          0.682379
+2024-04-28 12:00:40,979 - Model - INFO - Epoch 152 test Accuracy: 0.897095  Class avg mIOU: 0.682379   Inctance avg mIOU: 0.682379
+2024-04-28 12:00:40,979 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:40,979 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:40,980 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:40,980 - Model - INFO - Epoch 152 (153/251):
+2024-04-28 12:00:40,980 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:42,250 - Model - INFO - Train accuracy is: 0.97094
+2024-04-28 12:00:42,559 - Model - INFO - eval mIoU of Teeth          0.678237
+2024-04-28 12:00:42,559 - Model - INFO - Epoch 153 test Accuracy: 0.895203  Class avg mIOU: 0.678237   Inctance avg mIOU: 0.678237
+2024-04-28 12:00:42,559 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:42,559 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:42,559 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:42,559 - Model - INFO - Epoch 153 (154/251):
+2024-04-28 12:00:42,559 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:43,812 - Model - INFO - Train accuracy is: 0.97179
+2024-04-28 12:00:44,138 - Model - INFO - eval mIoU of Teeth          0.697739
+2024-04-28 12:00:44,138 - Model - INFO - Epoch 154 test Accuracy: 0.900879  Class avg mIOU: 0.697739   Inctance avg mIOU: 0.697739
+2024-04-28 12:00:44,138 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:44,138 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:44,138 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:44,138 - Model - INFO - Epoch 154 (155/251):
+2024-04-28 12:00:44,138 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:45,391 - Model - INFO - Train accuracy is: 0.96801
+2024-04-28 12:00:45,682 - Model - INFO - eval mIoU of Teeth          0.691218
+2024-04-28 12:00:45,683 - Model - INFO - Epoch 155 test Accuracy: 0.903931  Class avg mIOU: 0.691218   Inctance avg mIOU: 0.691218
+2024-04-28 12:00:45,683 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:45,683 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:45,683 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:45,683 - Model - INFO - Epoch 155 (156/251):
+2024-04-28 12:00:45,683 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:46,920 - Model - INFO - Train accuracy is: 0.97096
+2024-04-28 12:00:47,241 - Model - INFO - eval mIoU of Teeth          0.689866
+2024-04-28 12:00:47,241 - Model - INFO - Epoch 156 test Accuracy: 0.903442  Class avg mIOU: 0.689866   Inctance avg mIOU: 0.689866
+2024-04-28 12:00:47,241 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:47,241 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:47,241 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:47,241 - Model - INFO - Epoch 156 (157/251):
+2024-04-28 12:00:47,241 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:48,470 - Model - INFO - Train accuracy is: 0.97196
+2024-04-28 12:00:48,768 - Model - INFO - eval mIoU of Teeth          0.692586
+2024-04-28 12:00:48,768 - Model - INFO - Epoch 157 test Accuracy: 0.904846  Class avg mIOU: 0.692586   Inctance avg mIOU: 0.692586
+2024-04-28 12:00:48,768 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:48,768 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:48,768 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:48,768 - Model - INFO - Epoch 157 (158/251):
+2024-04-28 12:00:48,768 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:49,996 - Model - INFO - Train accuracy is: 0.97003
+2024-04-28 12:00:50,287 - Model - INFO - eval mIoU of Teeth          0.694198
+2024-04-28 12:00:50,288 - Model - INFO - Epoch 158 test Accuracy: 0.902222  Class avg mIOU: 0.694198   Inctance avg mIOU: 0.694198
+2024-04-28 12:00:50,288 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:50,288 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:50,288 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:50,288 - Model - INFO - Epoch 158 (159/251):
+2024-04-28 12:00:50,288 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:51,530 - Model - INFO - Train accuracy is: 0.97177
+2024-04-28 12:00:51,863 - Model - INFO - eval mIoU of Teeth          0.694861
+2024-04-28 12:00:51,863 - Model - INFO - Epoch 159 test Accuracy: 0.903442  Class avg mIOU: 0.694861   Inctance avg mIOU: 0.694861
+2024-04-28 12:00:51,863 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:51,863 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:51,863 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:51,863 - Model - INFO - Epoch 159 (160/251):
+2024-04-28 12:00:51,863 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:53,106 - Model - INFO - Train accuracy is: 0.97079
+2024-04-28 12:00:53,394 - Model - INFO - eval mIoU of Teeth          0.689271
+2024-04-28 12:00:53,395 - Model - INFO - Epoch 160 test Accuracy: 0.897461  Class avg mIOU: 0.689271   Inctance avg mIOU: 0.689271
+2024-04-28 12:00:53,395 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:53,395 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:53,395 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:53,395 - Model - INFO - Epoch 160 (161/251):
+2024-04-28 12:00:53,395 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:54,638 - Model - INFO - Train accuracy is: 0.97137
+2024-04-28 12:00:54,927 - Model - INFO - eval mIoU of Teeth          0.696699
+2024-04-28 12:00:54,928 - Model - INFO - Epoch 161 test Accuracy: 0.899536  Class avg mIOU: 0.696699   Inctance avg mIOU: 0.696699
+2024-04-28 12:00:54,928 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:54,928 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:54,928 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:54,928 - Model - INFO - Epoch 161 (162/251):
+2024-04-28 12:00:54,928 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:56,167 - Model - INFO - Train accuracy is: 0.97136
+2024-04-28 12:00:56,485 - Model - INFO - eval mIoU of Teeth          0.695091
+2024-04-28 12:00:56,485 - Model - INFO - Epoch 162 test Accuracy: 0.898376  Class avg mIOU: 0.695091   Inctance avg mIOU: 0.695091
+2024-04-28 12:00:56,485 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:56,486 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:56,486 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:56,486 - Model - INFO - Epoch 162 (163/251):
+2024-04-28 12:00:56,486 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:57,705 - Model - INFO - Train accuracy is: 0.97321
+2024-04-28 12:00:58,004 - Model - INFO - eval mIoU of Teeth          0.690397
+2024-04-28 12:00:58,004 - Model - INFO - Epoch 163 test Accuracy: 0.899048  Class avg mIOU: 0.690397   Inctance avg mIOU: 0.690397
+2024-04-28 12:00:58,004 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:58,004 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:58,004 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:58,004 - Model - INFO - Epoch 163 (164/251):
+2024-04-28 12:00:58,004 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:00:59,236 - Model - INFO - Train accuracy is: 0.97000
+2024-04-28 12:00:59,527 - Model - INFO - eval mIoU of Teeth          0.682339
+2024-04-28 12:00:59,527 - Model - INFO - Epoch 164 test Accuracy: 0.904785  Class avg mIOU: 0.682339   Inctance avg mIOU: 0.682339
+2024-04-28 12:00:59,527 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:00:59,527 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:00:59,527 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:00:59,527 - Model - INFO - Epoch 164 (165/251):
+2024-04-28 12:00:59,527 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:00,781 - Model - INFO - Train accuracy is: 0.97092
+2024-04-28 12:01:01,077 - Model - INFO - eval mIoU of Teeth          0.679588
+2024-04-28 12:01:01,077 - Model - INFO - Epoch 165 test Accuracy: 0.895081  Class avg mIOU: 0.679588   Inctance avg mIOU: 0.679588
+2024-04-28 12:01:01,077 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:01,077 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:01:01,077 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:01:01,077 - Model - INFO - Epoch 165 (166/251):
+2024-04-28 12:01:01,077 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:02,317 - Model - INFO - Train accuracy is: 0.97228
+2024-04-28 12:01:02,650 - Model - INFO - eval mIoU of Teeth          0.697616
+2024-04-28 12:01:02,650 - Model - INFO - Epoch 166 test Accuracy: 0.898315  Class avg mIOU: 0.697616   Inctance avg mIOU: 0.697616
+2024-04-28 12:01:02,650 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:02,650 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:01:02,650 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:01:02,650 - Model - INFO - Epoch 166 (167/251):
+2024-04-28 12:01:02,650 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:03,885 - Model - INFO - Train accuracy is: 0.97227
+2024-04-28 12:01:04,174 - Model - INFO - eval mIoU of Teeth          0.697822
+2024-04-28 12:01:04,174 - Model - INFO - Epoch 167 test Accuracy: 0.900513  Class avg mIOU: 0.697822   Inctance avg mIOU: 0.697822
+2024-04-28 12:01:04,174 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:04,174 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:01:04,174 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:01:04,174 - Model - INFO - Epoch 167 (168/251):
+2024-04-28 12:01:04,174 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:05,428 - Model - INFO - Train accuracy is: 0.97047
+2024-04-28 12:01:05,730 - Model - INFO - eval mIoU of Teeth          0.678318
+2024-04-28 12:01:05,731 - Model - INFO - Epoch 168 test Accuracy: 0.898682  Class avg mIOU: 0.678318   Inctance avg mIOU: 0.678318
+2024-04-28 12:01:05,731 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:05,731 - Model - INFO - Best class avg mIOU is: 0.70259
+2024-04-28 12:01:05,731 - Model - INFO - Best inctance avg mIOU is: 0.70259
+2024-04-28 12:01:05,731 - Model - INFO - Epoch 168 (169/251):
+2024-04-28 12:01:05,731 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:06,971 - Model - INFO - Train accuracy is: 0.97208
+2024-04-28 12:01:07,264 - Model - INFO - eval mIoU of Teeth          0.703390
+2024-04-28 12:01:07,264 - Model - INFO - Epoch 169 test Accuracy: 0.903564  Class avg mIOU: 0.703390   Inctance avg mIOU: 0.703390
+2024-04-28 12:01:07,264 - Model - INFO - Save model...
+2024-04-28 12:01:07,264 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 12:01:07,316 - Model - INFO - Saving model....
+2024-04-28 12:01:07,316 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:07,316 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:07,316 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:07,316 - Model - INFO - Epoch 169 (170/251):
+2024-04-28 12:01:07,316 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:08,538 - Model - INFO - Train accuracy is: 0.97269
+2024-04-28 12:01:08,849 - Model - INFO - eval mIoU of Teeth          0.687163
+2024-04-28 12:01:08,849 - Model - INFO - Epoch 170 test Accuracy: 0.902588  Class avg mIOU: 0.687163   Inctance avg mIOU: 0.687163
+2024-04-28 12:01:08,849 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:08,849 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:08,849 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:08,849 - Model - INFO - Epoch 170 (171/251):
+2024-04-28 12:01:08,849 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:10,094 - Model - INFO - Train accuracy is: 0.97113
+2024-04-28 12:01:10,395 - Model - INFO - eval mIoU of Teeth          0.686073
+2024-04-28 12:01:10,396 - Model - INFO - Epoch 171 test Accuracy: 0.895813  Class avg mIOU: 0.686073   Inctance avg mIOU: 0.686073
+2024-04-28 12:01:10,396 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:10,396 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:10,396 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:10,396 - Model - INFO - Epoch 171 (172/251):
+2024-04-28 12:01:10,396 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:11,698 - Model - INFO - Train accuracy is: 0.97223
+2024-04-28 12:01:12,032 - Model - INFO - eval mIoU of Teeth          0.683792
+2024-04-28 12:01:12,033 - Model - INFO - Epoch 172 test Accuracy: 0.897217  Class avg mIOU: 0.683792   Inctance avg mIOU: 0.683792
+2024-04-28 12:01:12,033 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:12,033 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:12,033 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:12,033 - Model - INFO - Epoch 172 (173/251):
+2024-04-28 12:01:12,033 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:13,315 - Model - INFO - Train accuracy is: 0.97108
+2024-04-28 12:01:13,624 - Model - INFO - eval mIoU of Teeth          0.682379
+2024-04-28 12:01:13,625 - Model - INFO - Epoch 173 test Accuracy: 0.896118  Class avg mIOU: 0.682379   Inctance avg mIOU: 0.682379
+2024-04-28 12:01:13,625 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:13,625 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:13,625 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:13,625 - Model - INFO - Epoch 173 (174/251):
+2024-04-28 12:01:13,625 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:14,885 - Model - INFO - Train accuracy is: 0.97062
+2024-04-28 12:01:15,205 - Model - INFO - eval mIoU of Teeth          0.683995
+2024-04-28 12:01:15,205 - Model - INFO - Epoch 174 test Accuracy: 0.895081  Class avg mIOU: 0.683995   Inctance avg mIOU: 0.683995
+2024-04-28 12:01:15,205 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:15,205 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:15,205 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:15,205 - Model - INFO - Epoch 174 (175/251):
+2024-04-28 12:01:15,205 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:16,486 - Model - INFO - Train accuracy is: 0.96818
+2024-04-28 12:01:16,793 - Model - INFO - eval mIoU of Teeth          0.689084
+2024-04-28 12:01:16,794 - Model - INFO - Epoch 175 test Accuracy: 0.896240  Class avg mIOU: 0.689084   Inctance avg mIOU: 0.689084
+2024-04-28 12:01:16,794 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:16,794 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:16,794 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:16,794 - Model - INFO - Epoch 175 (176/251):
+2024-04-28 12:01:16,794 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:18,052 - Model - INFO - Train accuracy is: 0.97107
+2024-04-28 12:01:18,350 - Model - INFO - eval mIoU of Teeth          0.702600
+2024-04-28 12:01:18,351 - Model - INFO - Epoch 176 test Accuracy: 0.901306  Class avg mIOU: 0.702600   Inctance avg mIOU: 0.702600
+2024-04-28 12:01:18,351 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:18,351 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:18,351 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:18,351 - Model - INFO - Epoch 176 (177/251):
+2024-04-28 12:01:18,351 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:19,608 - Model - INFO - Train accuracy is: 0.97051
+2024-04-28 12:01:19,907 - Model - INFO - eval mIoU of Teeth          0.689858
+2024-04-28 12:01:19,907 - Model - INFO - Epoch 177 test Accuracy: 0.900085  Class avg mIOU: 0.689858   Inctance avg mIOU: 0.689858
+2024-04-28 12:01:19,907 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:19,907 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:19,907 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:19,907 - Model - INFO - Epoch 177 (178/251):
+2024-04-28 12:01:19,907 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:21,220 - Model - INFO - Train accuracy is: 0.97092
+2024-04-28 12:01:21,525 - Model - INFO - eval mIoU of Teeth          0.675479
+2024-04-28 12:01:21,525 - Model - INFO - Epoch 178 test Accuracy: 0.900635  Class avg mIOU: 0.675479   Inctance avg mIOU: 0.675479
+2024-04-28 12:01:21,525 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:21,525 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:21,525 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:21,525 - Model - INFO - Epoch 178 (179/251):
+2024-04-28 12:01:21,525 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:22,764 - Model - INFO - Train accuracy is: 0.97245
+2024-04-28 12:01:23,067 - Model - INFO - eval mIoU of Teeth          0.674513
+2024-04-28 12:01:23,067 - Model - INFO - Epoch 179 test Accuracy: 0.891907  Class avg mIOU: 0.674513   Inctance avg mIOU: 0.674513
+2024-04-28 12:01:23,067 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:23,067 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:23,067 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:23,067 - Model - INFO - Epoch 179 (180/251):
+2024-04-28 12:01:23,067 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:24,368 - Model - INFO - Train accuracy is: 0.97213
+2024-04-28 12:01:24,677 - Model - INFO - eval mIoU of Teeth          0.693143
+2024-04-28 12:01:24,677 - Model - INFO - Epoch 180 test Accuracy: 0.903076  Class avg mIOU: 0.693143   Inctance avg mIOU: 0.693143
+2024-04-28 12:01:24,677 - Model - INFO - Best accuracy is: 0.90930
+2024-04-28 12:01:24,677 - Model - INFO - Best class avg mIOU is: 0.70339
+2024-04-28 12:01:24,677 - Model - INFO - Best inctance avg mIOU is: 0.70339
+2024-04-28 12:01:24,677 - Model - INFO - Epoch 180 (181/251):
+2024-04-28 12:01:24,677 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:25,934 - Model - INFO - Train accuracy is: 0.97278
+2024-04-28 12:01:26,239 - Model - INFO - eval mIoU of Teeth          0.705100
+2024-04-28 12:01:26,239 - Model - INFO - Epoch 181 test Accuracy: 0.909729  Class avg mIOU: 0.705100   Inctance avg mIOU: 0.705100
+2024-04-28 12:01:26,239 - Model - INFO - Save model...
+2024-04-28 12:01:26,239 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 12:01:26,273 - Model - INFO - Saving model....
+2024-04-28 12:01:26,273 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:26,273 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:26,273 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:26,273 - Model - INFO - Epoch 181 (182/251):
+2024-04-28 12:01:26,273 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:27,532 - Model - INFO - Train accuracy is: 0.97139
+2024-04-28 12:01:27,860 - Model - INFO - eval mIoU of Teeth          0.686390
+2024-04-28 12:01:27,860 - Model - INFO - Epoch 182 test Accuracy: 0.896790  Class avg mIOU: 0.686390   Inctance avg mIOU: 0.686390
+2024-04-28 12:01:27,860 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:27,860 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:27,860 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:27,860 - Model - INFO - Epoch 182 (183/251):
+2024-04-28 12:01:27,860 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:29,146 - Model - INFO - Train accuracy is: 0.96998
+2024-04-28 12:01:29,459 - Model - INFO - eval mIoU of Teeth          0.680064
+2024-04-28 12:01:29,459 - Model - INFO - Epoch 183 test Accuracy: 0.897888  Class avg mIOU: 0.680064   Inctance avg mIOU: 0.680064
+2024-04-28 12:01:29,459 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:29,459 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:29,459 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:29,459 - Model - INFO - Epoch 183 (184/251):
+2024-04-28 12:01:29,459 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:30,713 - Model - INFO - Train accuracy is: 0.97028
+2024-04-28 12:01:31,036 - Model - INFO - eval mIoU of Teeth          0.680344
+2024-04-28 12:01:31,036 - Model - INFO - Epoch 184 test Accuracy: 0.896606  Class avg mIOU: 0.680344   Inctance avg mIOU: 0.680344
+2024-04-28 12:01:31,036 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:31,036 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:31,036 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:31,036 - Model - INFO - Epoch 184 (185/251):
+2024-04-28 12:01:31,036 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:32,296 - Model - INFO - Train accuracy is: 0.97205
+2024-04-28 12:01:32,614 - Model - INFO - eval mIoU of Teeth          0.693503
+2024-04-28 12:01:32,614 - Model - INFO - Epoch 185 test Accuracy: 0.897766  Class avg mIOU: 0.693503   Inctance avg mIOU: 0.693503
+2024-04-28 12:01:32,614 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:32,614 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:32,614 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:32,614 - Model - INFO - Epoch 185 (186/251):
+2024-04-28 12:01:32,614 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:33,928 - Model - INFO - Train accuracy is: 0.97307
+2024-04-28 12:01:34,256 - Model - INFO - eval mIoU of Teeth          0.680003
+2024-04-28 12:01:34,256 - Model - INFO - Epoch 186 test Accuracy: 0.891907  Class avg mIOU: 0.680003   Inctance avg mIOU: 0.680003
+2024-04-28 12:01:34,257 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:34,257 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:34,257 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:34,257 - Model - INFO - Epoch 186 (187/251):
+2024-04-28 12:01:34,257 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:35,500 - Model - INFO - Train accuracy is: 0.97157
+2024-04-28 12:01:35,819 - Model - INFO - eval mIoU of Teeth          0.694501
+2024-04-28 12:01:35,819 - Model - INFO - Epoch 187 test Accuracy: 0.901245  Class avg mIOU: 0.694501   Inctance avg mIOU: 0.694501
+2024-04-28 12:01:35,819 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:35,819 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:35,819 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:35,819 - Model - INFO - Epoch 187 (188/251):
+2024-04-28 12:01:35,819 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:37,070 - Model - INFO - Train accuracy is: 0.97031
+2024-04-28 12:01:37,375 - Model - INFO - eval mIoU of Teeth          0.690295
+2024-04-28 12:01:37,375 - Model - INFO - Epoch 188 test Accuracy: 0.898254  Class avg mIOU: 0.690295   Inctance avg mIOU: 0.690295
+2024-04-28 12:01:37,375 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:37,375 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:37,375 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:37,375 - Model - INFO - Epoch 188 (189/251):
+2024-04-28 12:01:37,375 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:38,639 - Model - INFO - Train accuracy is: 0.97114
+2024-04-28 12:01:38,964 - Model - INFO - eval mIoU of Teeth          0.686816
+2024-04-28 12:01:38,965 - Model - INFO - Epoch 189 test Accuracy: 0.899963  Class avg mIOU: 0.686816   Inctance avg mIOU: 0.686816
+2024-04-28 12:01:38,965 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:38,965 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:38,965 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:38,965 - Model - INFO - Epoch 189 (190/251):
+2024-04-28 12:01:38,965 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:40,226 - Model - INFO - Train accuracy is: 0.97219
+2024-04-28 12:01:40,563 - Model - INFO - eval mIoU of Teeth          0.696587
+2024-04-28 12:01:40,563 - Model - INFO - Epoch 190 test Accuracy: 0.902222  Class avg mIOU: 0.696587   Inctance avg mIOU: 0.696587
+2024-04-28 12:01:40,563 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:40,563 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:40,563 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:40,563 - Model - INFO - Epoch 190 (191/251):
+2024-04-28 12:01:40,563 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:41,828 - Model - INFO - Train accuracy is: 0.96965
+2024-04-28 12:01:42,132 - Model - INFO - eval mIoU of Teeth          0.697347
+2024-04-28 12:01:42,133 - Model - INFO - Epoch 191 test Accuracy: 0.901306  Class avg mIOU: 0.697347   Inctance avg mIOU: 0.697347
+2024-04-28 12:01:42,133 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:42,133 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:42,133 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:42,133 - Model - INFO - Epoch 191 (192/251):
+2024-04-28 12:01:42,133 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:43,430 - Model - INFO - Train accuracy is: 0.97246
+2024-04-28 12:01:43,765 - Model - INFO - eval mIoU of Teeth          0.690754
+2024-04-28 12:01:43,765 - Model - INFO - Epoch 192 test Accuracy: 0.903687  Class avg mIOU: 0.690754   Inctance avg mIOU: 0.690754
+2024-04-28 12:01:43,765 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:43,765 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:43,765 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:43,765 - Model - INFO - Epoch 192 (193/251):
+2024-04-28 12:01:43,765 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:45,016 - Model - INFO - Train accuracy is: 0.97004
+2024-04-28 12:01:45,353 - Model - INFO - eval mIoU of Teeth          0.678082
+2024-04-28 12:01:45,353 - Model - INFO - Epoch 193 test Accuracy: 0.893982  Class avg mIOU: 0.678082   Inctance avg mIOU: 0.678082
+2024-04-28 12:01:45,353 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:45,353 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:45,353 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:45,353 - Model - INFO - Epoch 193 (194/251):
+2024-04-28 12:01:45,353 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:46,595 - Model - INFO - Train accuracy is: 0.97335
+2024-04-28 12:01:46,916 - Model - INFO - eval mIoU of Teeth          0.699463
+2024-04-28 12:01:46,917 - Model - INFO - Epoch 194 test Accuracy: 0.906494  Class avg mIOU: 0.699463   Inctance avg mIOU: 0.699463
+2024-04-28 12:01:46,917 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:46,917 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:46,917 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:46,917 - Model - INFO - Epoch 194 (195/251):
+2024-04-28 12:01:46,917 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:48,152 - Model - INFO - Train accuracy is: 0.97416
+2024-04-28 12:01:48,453 - Model - INFO - eval mIoU of Teeth          0.683204
+2024-04-28 12:01:48,453 - Model - INFO - Epoch 195 test Accuracy: 0.896057  Class avg mIOU: 0.683204   Inctance avg mIOU: 0.683204
+2024-04-28 12:01:48,453 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:48,453 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:48,453 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:48,453 - Model - INFO - Epoch 195 (196/251):
+2024-04-28 12:01:48,453 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:49,743 - Model - INFO - Train accuracy is: 0.97191
+2024-04-28 12:01:50,043 - Model - INFO - eval mIoU of Teeth          0.672127
+2024-04-28 12:01:50,043 - Model - INFO - Epoch 196 test Accuracy: 0.893066  Class avg mIOU: 0.672127   Inctance avg mIOU: 0.672127
+2024-04-28 12:01:50,043 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:50,043 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:50,043 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:50,043 - Model - INFO - Epoch 196 (197/251):
+2024-04-28 12:01:50,043 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:51,302 - Model - INFO - Train accuracy is: 0.97238
+2024-04-28 12:01:51,620 - Model - INFO - eval mIoU of Teeth          0.678198
+2024-04-28 12:01:51,620 - Model - INFO - Epoch 197 test Accuracy: 0.893433  Class avg mIOU: 0.678198   Inctance avg mIOU: 0.678198
+2024-04-28 12:01:51,620 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:51,620 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:51,620 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:51,620 - Model - INFO - Epoch 197 (198/251):
+2024-04-28 12:01:51,620 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:52,845 - Model - INFO - Train accuracy is: 0.97202
+2024-04-28 12:01:53,141 - Model - INFO - eval mIoU of Teeth          0.694848
+2024-04-28 12:01:53,141 - Model - INFO - Epoch 198 test Accuracy: 0.902039  Class avg mIOU: 0.694848   Inctance avg mIOU: 0.694848
+2024-04-28 12:01:53,141 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:53,141 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:53,141 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:53,141 - Model - INFO - Epoch 198 (199/251):
+2024-04-28 12:01:53,141 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:54,400 - Model - INFO - Train accuracy is: 0.97229
+2024-04-28 12:01:54,702 - Model - INFO - eval mIoU of Teeth          0.677620
+2024-04-28 12:01:54,702 - Model - INFO - Epoch 199 test Accuracy: 0.896667  Class avg mIOU: 0.677620   Inctance avg mIOU: 0.677620
+2024-04-28 12:01:54,702 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:54,702 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:54,702 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:54,702 - Model - INFO - Epoch 199 (200/251):
+2024-04-28 12:01:54,702 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:55,963 - Model - INFO - Train accuracy is: 0.97205
+2024-04-28 12:01:56,294 - Model - INFO - eval mIoU of Teeth          0.689664
+2024-04-28 12:01:56,294 - Model - INFO - Epoch 200 test Accuracy: 0.901917  Class avg mIOU: 0.689664   Inctance avg mIOU: 0.689664
+2024-04-28 12:01:56,294 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:56,294 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:56,294 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:56,294 - Model - INFO - Epoch 200 (201/251):
+2024-04-28 12:01:56,294 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:57,622 - Model - INFO - Train accuracy is: 0.97292
+2024-04-28 12:01:57,952 - Model - INFO - eval mIoU of Teeth          0.686200
+2024-04-28 12:01:57,953 - Model - INFO - Epoch 201 test Accuracy: 0.898010  Class avg mIOU: 0.686200   Inctance avg mIOU: 0.686200
+2024-04-28 12:01:57,953 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:57,953 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:57,953 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:57,953 - Model - INFO - Epoch 201 (202/251):
+2024-04-28 12:01:57,953 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:01:59,248 - Model - INFO - Train accuracy is: 0.97365
+2024-04-28 12:01:59,549 - Model - INFO - eval mIoU of Teeth          0.677217
+2024-04-28 12:01:59,550 - Model - INFO - Epoch 202 test Accuracy: 0.902161  Class avg mIOU: 0.677217   Inctance avg mIOU: 0.677217
+2024-04-28 12:01:59,550 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:01:59,550 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:01:59,550 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:01:59,550 - Model - INFO - Epoch 202 (203/251):
+2024-04-28 12:01:59,550 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:00,874 - Model - INFO - Train accuracy is: 0.97213
+2024-04-28 12:02:01,201 - Model - INFO - eval mIoU of Teeth          0.687688
+2024-04-28 12:02:01,201 - Model - INFO - Epoch 203 test Accuracy: 0.904358  Class avg mIOU: 0.687688   Inctance avg mIOU: 0.687688
+2024-04-28 12:02:01,201 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:01,201 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:01,201 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:01,202 - Model - INFO - Epoch 203 (204/251):
+2024-04-28 12:02:01,202 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:02,488 - Model - INFO - Train accuracy is: 0.96929
+2024-04-28 12:02:02,797 - Model - INFO - eval mIoU of Teeth          0.687751
+2024-04-28 12:02:02,798 - Model - INFO - Epoch 204 test Accuracy: 0.896729  Class avg mIOU: 0.687751   Inctance avg mIOU: 0.687751
+2024-04-28 12:02:02,798 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:02,798 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:02,798 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:02,798 - Model - INFO - Epoch 204 (205/251):
+2024-04-28 12:02:02,798 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:04,064 - Model - INFO - Train accuracy is: 0.97173
+2024-04-28 12:02:04,386 - Model - INFO - eval mIoU of Teeth          0.692543
+2024-04-28 12:02:04,387 - Model - INFO - Epoch 205 test Accuracy: 0.898621  Class avg mIOU: 0.692543   Inctance avg mIOU: 0.692543
+2024-04-28 12:02:04,387 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:04,387 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:04,387 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:04,387 - Model - INFO - Epoch 205 (206/251):
+2024-04-28 12:02:04,387 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:05,748 - Model - INFO - Train accuracy is: 0.96970
+2024-04-28 12:02:06,038 - Model - INFO - eval mIoU of Teeth          0.693484
+2024-04-28 12:02:06,039 - Model - INFO - Epoch 206 test Accuracy: 0.901917  Class avg mIOU: 0.693484   Inctance avg mIOU: 0.693484
+2024-04-28 12:02:06,039 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:06,039 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:06,039 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:06,039 - Model - INFO - Epoch 206 (207/251):
+2024-04-28 12:02:06,039 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:07,304 - Model - INFO - Train accuracy is: 0.97134
+2024-04-28 12:02:07,614 - Model - INFO - eval mIoU of Teeth          0.684613
+2024-04-28 12:02:07,614 - Model - INFO - Epoch 207 test Accuracy: 0.897156  Class avg mIOU: 0.684613   Inctance avg mIOU: 0.684613
+2024-04-28 12:02:07,614 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:07,614 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:07,614 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:07,614 - Model - INFO - Epoch 207 (208/251):
+2024-04-28 12:02:07,614 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:08,954 - Model - INFO - Train accuracy is: 0.97113
+2024-04-28 12:02:09,262 - Model - INFO - eval mIoU of Teeth          0.687609
+2024-04-28 12:02:09,262 - Model - INFO - Epoch 208 test Accuracy: 0.898621  Class avg mIOU: 0.687609   Inctance avg mIOU: 0.687609
+2024-04-28 12:02:09,262 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:09,262 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:09,262 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:09,262 - Model - INFO - Epoch 208 (209/251):
+2024-04-28 12:02:09,262 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:10,536 - Model - INFO - Train accuracy is: 0.97133
+2024-04-28 12:02:10,829 - Model - INFO - eval mIoU of Teeth          0.693746
+2024-04-28 12:02:10,829 - Model - INFO - Epoch 209 test Accuracy: 0.906311  Class avg mIOU: 0.693746   Inctance avg mIOU: 0.693746
+2024-04-28 12:02:10,829 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:10,829 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:10,829 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:10,829 - Model - INFO - Epoch 209 (210/251):
+2024-04-28 12:02:10,829 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:12,119 - Model - INFO - Train accuracy is: 0.97313
+2024-04-28 12:02:12,451 - Model - INFO - eval mIoU of Teeth          0.692210
+2024-04-28 12:02:12,451 - Model - INFO - Epoch 210 test Accuracy: 0.902344  Class avg mIOU: 0.692210   Inctance avg mIOU: 0.692210
+2024-04-28 12:02:12,451 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:12,451 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:12,451 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:12,451 - Model - INFO - Epoch 210 (211/251):
+2024-04-28 12:02:12,451 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:13,773 - Model - INFO - Train accuracy is: 0.97001
+2024-04-28 12:02:14,081 - Model - INFO - eval mIoU of Teeth          0.678980
+2024-04-28 12:02:14,081 - Model - INFO - Epoch 211 test Accuracy: 0.895935  Class avg mIOU: 0.678980   Inctance avg mIOU: 0.678980
+2024-04-28 12:02:14,081 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:14,081 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:14,081 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:14,081 - Model - INFO - Epoch 211 (212/251):
+2024-04-28 12:02:14,081 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:15,321 - Model - INFO - Train accuracy is: 0.97241
+2024-04-28 12:02:15,630 - Model - INFO - eval mIoU of Teeth          0.688959
+2024-04-28 12:02:15,630 - Model - INFO - Epoch 212 test Accuracy: 0.899658  Class avg mIOU: 0.688959   Inctance avg mIOU: 0.688959
+2024-04-28 12:02:15,630 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:15,630 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:15,630 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:15,630 - Model - INFO - Epoch 212 (213/251):
+2024-04-28 12:02:15,630 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:16,922 - Model - INFO - Train accuracy is: 0.97380
+2024-04-28 12:02:17,235 - Model - INFO - eval mIoU of Teeth          0.692275
+2024-04-28 12:02:17,235 - Model - INFO - Epoch 213 test Accuracy: 0.905396  Class avg mIOU: 0.692275   Inctance avg mIOU: 0.692275
+2024-04-28 12:02:17,235 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:17,235 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:17,235 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:17,235 - Model - INFO - Epoch 213 (214/251):
+2024-04-28 12:02:17,235 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:18,564 - Model - INFO - Train accuracy is: 0.97261
+2024-04-28 12:02:18,890 - Model - INFO - eval mIoU of Teeth          0.669133
+2024-04-28 12:02:18,890 - Model - INFO - Epoch 214 test Accuracy: 0.891907  Class avg mIOU: 0.669133   Inctance avg mIOU: 0.669133
+2024-04-28 12:02:18,890 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:18,890 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:18,890 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:18,890 - Model - INFO - Epoch 214 (215/251):
+2024-04-28 12:02:18,890 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:20,234 - Model - INFO - Train accuracy is: 0.97137
+2024-04-28 12:02:20,531 - Model - INFO - eval mIoU of Teeth          0.691090
+2024-04-28 12:02:20,531 - Model - INFO - Epoch 215 test Accuracy: 0.897888  Class avg mIOU: 0.691090   Inctance avg mIOU: 0.691090
+2024-04-28 12:02:20,531 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:20,531 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:20,531 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:20,531 - Model - INFO - Epoch 215 (216/251):
+2024-04-28 12:02:20,531 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:21,832 - Model - INFO - Train accuracy is: 0.97189
+2024-04-28 12:02:22,155 - Model - INFO - eval mIoU of Teeth          0.686775
+2024-04-28 12:02:22,155 - Model - INFO - Epoch 216 test Accuracy: 0.900085  Class avg mIOU: 0.686775   Inctance avg mIOU: 0.686775
+2024-04-28 12:02:22,155 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:22,155 - Model - INFO - Best class avg mIOU is: 0.70510
+2024-04-28 12:02:22,155 - Model - INFO - Best inctance avg mIOU is: 0.70510
+2024-04-28 12:02:22,155 - Model - INFO - Epoch 216 (217/251):
+2024-04-28 12:02:22,155 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:23,505 - Model - INFO - Train accuracy is: 0.97096
+2024-04-28 12:02:23,828 - Model - INFO - eval mIoU of Teeth          0.706349
+2024-04-28 12:02:23,828 - Model - INFO - Epoch 217 test Accuracy: 0.905701  Class avg mIOU: 0.706349   Inctance avg mIOU: 0.706349
+2024-04-28 12:02:23,828 - Model - INFO - Save model...
+2024-04-28 12:02:23,828 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 12:02:23,861 - Model - INFO - Saving model....
+2024-04-28 12:02:23,861 - Model - INFO - Best accuracy is: 0.90973
+2024-04-28 12:02:23,861 - Model - INFO - Best class avg mIOU is: 0.70635
+2024-04-28 12:02:23,861 - Model - INFO - Best inctance avg mIOU is: 0.70635
+2024-04-28 12:02:23,861 - Model - INFO - Epoch 217 (218/251):
+2024-04-28 12:02:23,861 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:25,160 - Model - INFO - Train accuracy is: 0.97166
+2024-04-28 12:02:25,502 - Model - INFO - eval mIoU of Teeth          0.710237
+2024-04-28 12:02:25,503 - Model - INFO - Epoch 218 test Accuracy: 0.910217  Class avg mIOU: 0.710237   Inctance avg mIOU: 0.710237
+2024-04-28 12:02:25,503 - Model - INFO - Save model...
+2024-04-28 12:02:25,503 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-28 12:02:25,539 - Model - INFO - Saving model....
+2024-04-28 12:02:25,539 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:25,539 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:25,539 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:25,540 - Model - INFO - Epoch 218 (219/251):
+2024-04-28 12:02:25,540 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:26,894 - Model - INFO - Train accuracy is: 0.97159
+2024-04-28 12:02:27,199 - Model - INFO - eval mIoU of Teeth          0.702460
+2024-04-28 12:02:27,199 - Model - INFO - Epoch 219 test Accuracy: 0.902832  Class avg mIOU: 0.702460   Inctance avg mIOU: 0.702460
+2024-04-28 12:02:27,200 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:27,200 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:27,200 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:27,200 - Model - INFO - Epoch 219 (220/251):
+2024-04-28 12:02:27,200 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:28,557 - Model - INFO - Train accuracy is: 0.97247
+2024-04-28 12:02:28,858 - Model - INFO - eval mIoU of Teeth          0.687001
+2024-04-28 12:02:28,859 - Model - INFO - Epoch 220 test Accuracy: 0.900024  Class avg mIOU: 0.687001   Inctance avg mIOU: 0.687001
+2024-04-28 12:02:28,859 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:28,859 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:28,859 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:28,859 - Model - INFO - Epoch 220 (221/251):
+2024-04-28 12:02:28,859 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:30,156 - Model - INFO - Train accuracy is: 0.97135
+2024-04-28 12:02:30,464 - Model - INFO - eval mIoU of Teeth          0.690145
+2024-04-28 12:02:30,464 - Model - INFO - Epoch 221 test Accuracy: 0.898987  Class avg mIOU: 0.690145   Inctance avg mIOU: 0.690145
+2024-04-28 12:02:30,464 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:30,464 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:30,464 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:30,464 - Model - INFO - Epoch 221 (222/251):
+2024-04-28 12:02:30,464 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:31,753 - Model - INFO - Train accuracy is: 0.97200
+2024-04-28 12:02:32,090 - Model - INFO - eval mIoU of Teeth          0.684395
+2024-04-28 12:02:32,090 - Model - INFO - Epoch 222 test Accuracy: 0.900085  Class avg mIOU: 0.684395   Inctance avg mIOU: 0.684395
+2024-04-28 12:02:32,090 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:32,090 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:32,090 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:32,090 - Model - INFO - Epoch 222 (223/251):
+2024-04-28 12:02:32,090 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:33,392 - Model - INFO - Train accuracy is: 0.97207
+2024-04-28 12:02:33,718 - Model - INFO - eval mIoU of Teeth          0.708017
+2024-04-28 12:02:33,718 - Model - INFO - Epoch 223 test Accuracy: 0.909912  Class avg mIOU: 0.708017   Inctance avg mIOU: 0.708017
+2024-04-28 12:02:33,718 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:33,718 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:33,718 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:33,718 - Model - INFO - Epoch 223 (224/251):
+2024-04-28 12:02:33,718 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:34,961 - Model - INFO - Train accuracy is: 0.97209
+2024-04-28 12:02:35,271 - Model - INFO - eval mIoU of Teeth          0.690355
+2024-04-28 12:02:35,271 - Model - INFO - Epoch 224 test Accuracy: 0.897705  Class avg mIOU: 0.690355   Inctance avg mIOU: 0.690355
+2024-04-28 12:02:35,271 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:35,271 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:35,271 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:35,271 - Model - INFO - Epoch 224 (225/251):
+2024-04-28 12:02:35,272 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:36,541 - Model - INFO - Train accuracy is: 0.97112
+2024-04-28 12:02:36,854 - Model - INFO - eval mIoU of Teeth          0.683255
+2024-04-28 12:02:36,854 - Model - INFO - Epoch 225 test Accuracy: 0.900818  Class avg mIOU: 0.683255   Inctance avg mIOU: 0.683255
+2024-04-28 12:02:36,854 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:36,854 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:36,854 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:36,854 - Model - INFO - Epoch 225 (226/251):
+2024-04-28 12:02:36,855 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:38,104 - Model - INFO - Train accuracy is: 0.97384
+2024-04-28 12:02:38,406 - Model - INFO - eval mIoU of Teeth          0.691030
+2024-04-28 12:02:38,407 - Model - INFO - Epoch 226 test Accuracy: 0.897522  Class avg mIOU: 0.691030   Inctance avg mIOU: 0.691030
+2024-04-28 12:02:38,407 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:38,407 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:38,407 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:38,407 - Model - INFO - Epoch 226 (227/251):
+2024-04-28 12:02:38,407 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:39,650 - Model - INFO - Train accuracy is: 0.97052
+2024-04-28 12:02:39,979 - Model - INFO - eval mIoU of Teeth          0.689243
+2024-04-28 12:02:39,979 - Model - INFO - Epoch 227 test Accuracy: 0.901062  Class avg mIOU: 0.689243   Inctance avg mIOU: 0.689243
+2024-04-28 12:02:39,980 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:39,980 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:39,980 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:39,980 - Model - INFO - Epoch 227 (228/251):
+2024-04-28 12:02:39,980 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:41,237 - Model - INFO - Train accuracy is: 0.97264
+2024-04-28 12:02:41,559 - Model - INFO - eval mIoU of Teeth          0.682741
+2024-04-28 12:02:41,559 - Model - INFO - Epoch 228 test Accuracy: 0.897278  Class avg mIOU: 0.682741   Inctance avg mIOU: 0.682741
+2024-04-28 12:02:41,559 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:41,559 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:41,559 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:41,559 - Model - INFO - Epoch 228 (229/251):
+2024-04-28 12:02:41,559 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:42,817 - Model - INFO - Train accuracy is: 0.97296
+2024-04-28 12:02:43,126 - Model - INFO - eval mIoU of Teeth          0.686238
+2024-04-28 12:02:43,126 - Model - INFO - Epoch 229 test Accuracy: 0.901550  Class avg mIOU: 0.686238   Inctance avg mIOU: 0.686238
+2024-04-28 12:02:43,126 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:43,126 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:43,126 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:43,126 - Model - INFO - Epoch 229 (230/251):
+2024-04-28 12:02:43,126 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:44,369 - Model - INFO - Train accuracy is: 0.97266
+2024-04-28 12:02:44,700 - Model - INFO - eval mIoU of Teeth          0.668910
+2024-04-28 12:02:44,700 - Model - INFO - Epoch 230 test Accuracy: 0.893555  Class avg mIOU: 0.668910   Inctance avg mIOU: 0.668910
+2024-04-28 12:02:44,700 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:44,700 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:44,700 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:44,700 - Model - INFO - Epoch 230 (231/251):
+2024-04-28 12:02:44,700 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:45,970 - Model - INFO - Train accuracy is: 0.96971
+2024-04-28 12:02:46,272 - Model - INFO - eval mIoU of Teeth          0.688325
+2024-04-28 12:02:46,272 - Model - INFO - Epoch 231 test Accuracy: 0.902710  Class avg mIOU: 0.688325   Inctance avg mIOU: 0.688325
+2024-04-28 12:02:46,272 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:46,272 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:46,272 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:46,272 - Model - INFO - Epoch 231 (232/251):
+2024-04-28 12:02:46,272 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:47,553 - Model - INFO - Train accuracy is: 0.97150
+2024-04-28 12:02:47,868 - Model - INFO - eval mIoU of Teeth          0.692524
+2024-04-28 12:02:47,868 - Model - INFO - Epoch 232 test Accuracy: 0.898254  Class avg mIOU: 0.692524   Inctance avg mIOU: 0.692524
+2024-04-28 12:02:47,868 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:47,868 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:47,868 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:47,868 - Model - INFO - Epoch 232 (233/251):
+2024-04-28 12:02:47,868 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:49,168 - Model - INFO - Train accuracy is: 0.97192
+2024-04-28 12:02:49,482 - Model - INFO - eval mIoU of Teeth          0.693838
+2024-04-28 12:02:49,482 - Model - INFO - Epoch 233 test Accuracy: 0.899353  Class avg mIOU: 0.693838   Inctance avg mIOU: 0.693838
+2024-04-28 12:02:49,482 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:49,482 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:49,482 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:49,482 - Model - INFO - Epoch 233 (234/251):
+2024-04-28 12:02:49,482 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:50,771 - Model - INFO - Train accuracy is: 0.97278
+2024-04-28 12:02:51,074 - Model - INFO - eval mIoU of Teeth          0.692596
+2024-04-28 12:02:51,074 - Model - INFO - Epoch 234 test Accuracy: 0.904053  Class avg mIOU: 0.692596   Inctance avg mIOU: 0.692596
+2024-04-28 12:02:51,074 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:51,074 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:51,074 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:51,074 - Model - INFO - Epoch 234 (235/251):
+2024-04-28 12:02:51,074 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:52,364 - Model - INFO - Train accuracy is: 0.97164
+2024-04-28 12:02:52,715 - Model - INFO - eval mIoU of Teeth          0.690185
+2024-04-28 12:02:52,715 - Model - INFO - Epoch 235 test Accuracy: 0.896118  Class avg mIOU: 0.690185   Inctance avg mIOU: 0.690185
+2024-04-28 12:02:52,715 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:52,715 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:52,715 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:52,715 - Model - INFO - Epoch 235 (236/251):
+2024-04-28 12:02:52,715 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:53,982 - Model - INFO - Train accuracy is: 0.97267
+2024-04-28 12:02:54,291 - Model - INFO - eval mIoU of Teeth          0.680123
+2024-04-28 12:02:54,291 - Model - INFO - Epoch 236 test Accuracy: 0.895020  Class avg mIOU: 0.680123   Inctance avg mIOU: 0.680123
+2024-04-28 12:02:54,291 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:54,291 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:54,291 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:54,291 - Model - INFO - Epoch 236 (237/251):
+2024-04-28 12:02:54,291 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:55,585 - Model - INFO - Train accuracy is: 0.97189
+2024-04-28 12:02:55,892 - Model - INFO - eval mIoU of Teeth          0.684192
+2024-04-28 12:02:55,892 - Model - INFO - Epoch 237 test Accuracy: 0.899841  Class avg mIOU: 0.684192   Inctance avg mIOU: 0.684192
+2024-04-28 12:02:55,892 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:55,892 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:55,892 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:55,892 - Model - INFO - Epoch 237 (238/251):
+2024-04-28 12:02:55,892 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:57,220 - Model - INFO - Train accuracy is: 0.97062
+2024-04-28 12:02:57,532 - Model - INFO - eval mIoU of Teeth          0.691795
+2024-04-28 12:02:57,532 - Model - INFO - Epoch 238 test Accuracy: 0.898987  Class avg mIOU: 0.691795   Inctance avg mIOU: 0.691795
+2024-04-28 12:02:57,532 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:57,532 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:57,532 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:57,532 - Model - INFO - Epoch 238 (239/251):
+2024-04-28 12:02:57,532 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:02:58,846 - Model - INFO - Train accuracy is: 0.97094
+2024-04-28 12:02:59,157 - Model - INFO - eval mIoU of Teeth          0.676945
+2024-04-28 12:02:59,157 - Model - INFO - Epoch 239 test Accuracy: 0.892273  Class avg mIOU: 0.676945   Inctance avg mIOU: 0.676945
+2024-04-28 12:02:59,157 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:02:59,157 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:02:59,157 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:02:59,157 - Model - INFO - Epoch 239 (240/251):
+2024-04-28 12:02:59,157 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:00,461 - Model - INFO - Train accuracy is: 0.97249
+2024-04-28 12:03:00,769 - Model - INFO - eval mIoU of Teeth          0.690918
+2024-04-28 12:03:00,769 - Model - INFO - Epoch 240 test Accuracy: 0.899048  Class avg mIOU: 0.690918   Inctance avg mIOU: 0.690918
+2024-04-28 12:03:00,769 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:00,769 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:00,769 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:00,769 - Model - INFO - Epoch 240 (241/251):
+2024-04-28 12:03:00,769 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:02,096 - Model - INFO - Train accuracy is: 0.97157
+2024-04-28 12:03:02,421 - Model - INFO - eval mIoU of Teeth          0.689599
+2024-04-28 12:03:02,421 - Model - INFO - Epoch 241 test Accuracy: 0.900635  Class avg mIOU: 0.689599   Inctance avg mIOU: 0.689599
+2024-04-28 12:03:02,421 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:02,421 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:02,421 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:02,421 - Model - INFO - Epoch 241 (242/251):
+2024-04-28 12:03:02,421 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:03,724 - Model - INFO - Train accuracy is: 0.97341
+2024-04-28 12:03:04,040 - Model - INFO - eval mIoU of Teeth          0.695615
+2024-04-28 12:03:04,040 - Model - INFO - Epoch 242 test Accuracy: 0.905457  Class avg mIOU: 0.695615   Inctance avg mIOU: 0.695615
+2024-04-28 12:03:04,040 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:04,040 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:04,040 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:04,040 - Model - INFO - Epoch 242 (243/251):
+2024-04-28 12:03:04,040 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:05,341 - Model - INFO - Train accuracy is: 0.97310
+2024-04-28 12:03:05,667 - Model - INFO - eval mIoU of Teeth          0.689726
+2024-04-28 12:03:05,667 - Model - INFO - Epoch 243 test Accuracy: 0.893372  Class avg mIOU: 0.689726   Inctance avg mIOU: 0.689726
+2024-04-28 12:03:05,667 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:05,667 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:05,667 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:05,667 - Model - INFO - Epoch 243 (244/251):
+2024-04-28 12:03:05,667 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:06,957 - Model - INFO - Train accuracy is: 0.97367
+2024-04-28 12:03:07,252 - Model - INFO - eval mIoU of Teeth          0.686537
+2024-04-28 12:03:07,252 - Model - INFO - Epoch 244 test Accuracy: 0.895813  Class avg mIOU: 0.686537   Inctance avg mIOU: 0.686537
+2024-04-28 12:03:07,252 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:07,252 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:07,252 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:07,252 - Model - INFO - Epoch 244 (245/251):
+2024-04-28 12:03:07,252 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:08,523 - Model - INFO - Train accuracy is: 0.97048
+2024-04-28 12:03:08,840 - Model - INFO - eval mIoU of Teeth          0.677463
+2024-04-28 12:03:08,841 - Model - INFO - Epoch 245 test Accuracy: 0.893127  Class avg mIOU: 0.677463   Inctance avg mIOU: 0.677463
+2024-04-28 12:03:08,841 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:08,841 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:08,841 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:08,841 - Model - INFO - Epoch 245 (246/251):
+2024-04-28 12:03:08,841 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:10,089 - Model - INFO - Train accuracy is: 0.97188
+2024-04-28 12:03:10,419 - Model - INFO - eval mIoU of Teeth          0.687024
+2024-04-28 12:03:10,419 - Model - INFO - Epoch 246 test Accuracy: 0.899414  Class avg mIOU: 0.687024   Inctance avg mIOU: 0.687024
+2024-04-28 12:03:10,419 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:10,419 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:10,419 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:10,419 - Model - INFO - Epoch 246 (247/251):
+2024-04-28 12:03:10,419 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:11,676 - Model - INFO - Train accuracy is: 0.97290
+2024-04-28 12:03:12,003 - Model - INFO - eval mIoU of Teeth          0.684947
+2024-04-28 12:03:12,003 - Model - INFO - Epoch 247 test Accuracy: 0.895569  Class avg mIOU: 0.684947   Inctance avg mIOU: 0.684947
+2024-04-28 12:03:12,003 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:12,003 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:12,003 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:12,003 - Model - INFO - Epoch 247 (248/251):
+2024-04-28 12:03:12,003 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:13,260 - Model - INFO - Train accuracy is: 0.97338
+2024-04-28 12:03:13,568 - Model - INFO - eval mIoU of Teeth          0.687779
+2024-04-28 12:03:13,568 - Model - INFO - Epoch 248 test Accuracy: 0.896362  Class avg mIOU: 0.687779   Inctance avg mIOU: 0.687779
+2024-04-28 12:03:13,568 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:13,568 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:13,568 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:13,568 - Model - INFO - Epoch 248 (249/251):
+2024-04-28 12:03:13,568 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:14,823 - Model - INFO - Train accuracy is: 0.96864
+2024-04-28 12:03:15,136 - Model - INFO - eval mIoU of Teeth          0.676316
+2024-04-28 12:03:15,136 - Model - INFO - Epoch 249 test Accuracy: 0.897827  Class avg mIOU: 0.676316   Inctance avg mIOU: 0.676316
+2024-04-28 12:03:15,136 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:15,136 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:15,136 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:15,136 - Model - INFO - Epoch 249 (250/251):
+2024-04-28 12:03:15,136 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:16,361 - Model - INFO - Train accuracy is: 0.96980
+2024-04-28 12:03:16,686 - Model - INFO - eval mIoU of Teeth          0.696408
+2024-04-28 12:03:16,686 - Model - INFO - Epoch 250 test Accuracy: 0.901306  Class avg mIOU: 0.696408   Inctance avg mIOU: 0.696408
+2024-04-28 12:03:16,686 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:16,686 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:16,686 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-28 12:03:16,686 - Model - INFO - Epoch 250 (251/251):
+2024-04-28 12:03:16,686 - Model - INFO - Learning rate:0.000010
+2024-04-28 12:03:17,963 - Model - INFO - Train accuracy is: 0.97153
+2024-04-28 12:03:18,278 - Model - INFO - eval mIoU of Teeth          0.685136
+2024-04-28 12:03:18,278 - Model - INFO - Epoch 251 test Accuracy: 0.897461  Class avg mIOU: 0.685136   Inctance avg mIOU: 0.685136
+2024-04-28 12:03:18,278 - Model - INFO - Best accuracy is: 0.91022
+2024-04-28 12:03:18,278 - Model - INFO - Best class avg mIOU is: 0.71024
+2024-04-28 12:03:18,278 - Model - INFO - Best inctance avg mIOU is: 0.71024
+2024-04-29 10:44:14,365 - Model - INFO - PARAMETER ...
+2024-04-29 10:44:14,365 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-29 10:44:14,366 - Model - INFO - The number of training data is: 40
+2024-04-29 10:44:14,366 - Model - INFO - The number of test data is: 8
+2024-04-29 10:44:14,503 - Model - INFO - Use pretrain model
+2024-04-29 10:44:14,821 - Model - INFO - Epoch 1 (218/251):
+2024-04-29 10:44:14,821 - Model - INFO - Learning rate:0.000010
+2024-04-29 10:44:16,473 - Model - INFO - Train accuracy is: 0.97194
+2024-04-29 10:44:16,761 - Model - INFO - eval mIoU of Teeth          0.674346
+2024-04-29 10:44:16,761 - Model - INFO - Epoch 218 test Accuracy: 0.890137  Class avg mIOU: 0.674346   Inctance avg mIOU: 0.674346
+2024-04-29 10:44:16,761 - Model - INFO - Save model...
+2024-04-29 10:44:16,761 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-04-29 10:44:16,798 - Model - INFO - Saving model....
+2024-04-29 10:44:16,799 - Model - INFO - Best accuracy is: 0.89014
+2024-04-29 10:44:16,799 - Model - INFO - Best class avg mIOU is: 0.67435
+2024-04-29 10:44:16,799 - Model - INFO - Best inctance avg mIOU is: 0.67435
+2024-04-29 10:44:16,799 - Model - INFO - Epoch 2 (219/251):
+2024-04-29 10:44:16,799 - Model - INFO - Learning rate:0.000010
+2024-04-29 14:46:21,665 - Model - INFO - PARAMETER ...
+2024-04-29 14:46:38,464 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-29 17:17:21,595 - Model - INFO - The number of training data is: 40
+2024-04-29 17:17:41,399 - Model - INFO - The number of test data is: 8

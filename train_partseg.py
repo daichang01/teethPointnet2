@@ -106,7 +106,7 @@ def main(args):
     log_string("The number of test data is: %d" % len(TEST_DATASET))
 
     num_classes = 16
-    num_part = 50
+    num_part = 3
 
     '''MODEL LOADING'''
     MODEL = importlib.import_module(args.model)
@@ -192,7 +192,7 @@ def main(args):
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
 
-            classifier = classifier.train() #训练 
+            # classifier = classifier.train() 
             seg_pred, trans_feat = classifier(points, to_categorical(label, num_classes)) #训练
             seg_pred = seg_pred.contiguous().view(-1, num_part)
             target = target.view(-1, 1)[:, 0]

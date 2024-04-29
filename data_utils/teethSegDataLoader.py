@@ -11,10 +11,10 @@ warnings.filterwarnings('ignore')
 
 #点云归一化，以cnetroid为中心，半径为1
 def pc_normalize(pc):
-    centroid = np.mean(pc, axis=0)
-    pc = pc - centroid
-    m = np.max(np.sqrt(np.sum(pc ** 2, axis=1)))
-    pc = pc / m
+    centroid = np.mean(pc, axis=0) # 得到质心坐标
+    pc = pc - centroid # 通过从每个点的坐标中减去质心坐标，将点云的中心移动到原点。这一步是为了去除点云位置的影响，仅保留形状信息。
+    m = np.max(np.sqrt(np.sum(pc ** 2, axis=1))) #找出所有点中到原点距离最远的点的距离，即点云的最大范围。
+    pc = pc / m #将点云中的每个点除以最大距离 m，确保点云中所有点的最大距离为1。这样，点云被规范到单位球内，使得不同的点云数据具有可比性
     return pc
 # 指定数据集在哪个目录下，默认采2500个点
 class PartNormalDataset(Dataset):
@@ -110,7 +110,7 @@ class PartNormalDataset(Dataset):
         point_set = point_set[choice, :]
         seg = seg[choice]
 
-        return point_set, cls, seg
+        return point_set, cls, seg #返回一个索引对应的数据项
 
     def __len__(self):
         return len(self.datapath)
