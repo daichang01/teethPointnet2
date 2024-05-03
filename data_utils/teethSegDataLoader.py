@@ -109,7 +109,9 @@ class PartNormalDataset(Dataset):
         # resample
         point_set = point_set[choice, :]
         seg = seg[choice]
-
+        #point_set 点云数据，前6列，进行了点云归1化，限制半径为1
+        #cls 类别，这里只有一个类别0,代表teeth
+        #seg 最后一列标签，是向量，代表每个点属于哪个类别
         return point_set, cls, seg #返回一个索引对应的数据项
 
     def __len__(self):

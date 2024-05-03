@@ -12,6 +12,25 @@ class get_model(nn.Module):
         else:
             additional_channel = 0
         self.normal_channel = normal_channel
+# PointNetSetAbstractionMsg (Multi-scale Grouping Layer)
+# self.sa1
+# npoint=512: 在第一层特征抽象中，随机采样512个点。
+# radius=[0.1, 0.2, 0.4]: 使用不同的搜索半径来捕获多尺度的局部结构。这意味着在每个半径级别，都会基于中心点收集周围的点。
+# nsample=[32, 64, 128]: 分别对应上述每个半径的采样点数，定义了在每个搜索半径下，围绕中心点采样的邻居点数量。
+# in_channel=3+additional_channel: 输入通道数，通常对应点云的XYZ坐标加上可能的额外通道（如颜色、强度等）。
+# mlp=[[32, 32, 64], [64, 64, 128], [64, 96, 128]]: 这是一个多层感知机（MLP）的列表，每个列表项对应一个半径级别的MLP配置，用于处理从每个邻域提取的特征。
+# self.sa2
+# npoint=128: 在第二层特征抽象中，从前一层的输出中进一步随机采样128个点。
+# radius=[0.4, 0.8]: 增加搜索半径以捕获更广的局部结构。
+# nsample=[64, 128]: 对应上述每个半径的采样点数。
+# in_channel=128+128+64: 输入通道数，这是从第一层特征抽象中传递下来的特征维数之和。
+# mlp=[[128, 128, 256], [128, 196, 256]]: 为这一层的每个半径配置的MLP。
+# PointNetSetAbstraction (Global Feature Layer)
+# self.sa3
+# npoint=None, radius=None, nsample=None: 这些参数为空或None，表示这一层处理所有点，也就是进行全局特征抽象。
+# in_channel=512 + 3: 输入通道数，这是从上一层传递下来的特征维数加上原始的点坐标维数。
+# mlp=[256, 512, 1024]: 用于处理全局特征的MLP配置。
+# group_all=True: 这个参数指示该层要抽取全局特征，不再进行局部采样。
         self.sa1 = PointNetSetAbstractionMsg(512, [0.1, 0.2, 0.4], [32, 64, 128], 3+additional_channel, [[32, 32, 64], [64, 64, 128], [64, 96, 128]])
         self.sa2 = PointNetSetAbstractionMsg(128, [0.4,0.8], [64, 128], 128+128+64, [[128, 128, 256], [128, 196, 256]])
         self.sa3 = PointNetSetAbstraction(npoint=None, radius=None, nsample=None, in_channel=512 + 3, mlp=[256, 512, 1024], group_all=True)

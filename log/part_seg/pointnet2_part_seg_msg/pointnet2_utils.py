@@ -252,7 +252,13 @@ class PointNetSetAbstraction(nn.Module):
         new_xyz = new_xyz.permute(0, 2, 1)
         return new_xyz, new_points
 
+# **sampling**采样：选取centroid（中心点）   (sample centroids)
 
+# **grouping**分组：以centroid为中心，选取局部的点  (group points by centroids)
+
+# **PointNet**：对分组内的点应用pointnet进行特征的学习 (apply PointNet on each point group)
+
+# 以上过程加起来称作**Set Abstraction**
 class PointNetSetAbstractionMsg(nn.Module):
     def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list):
         super(PointNetSetAbstractionMsg, self).__init__()
@@ -266,7 +272,7 @@ class PointNetSetAbstractionMsg(nn.Module):
             bns = nn.ModuleList()
             last_channel = in_channel + 3
             for out_channel in mlp_list[i]:
-                convs.append(nn.Conv2d(last_channel, out_channel, 1))
+                convs.append(nn.Conv2d(last_channel, out_channel, 1)) 
                 bns.append(nn.BatchNorm2d(out_channel))
                 last_channel = out_channel
             self.conv_blocks.append(convs)

@@ -4211,3 +4211,33 @@
 2024-04-29 14:46:38,464 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
 2024-04-29 17:17:21,595 - Model - INFO - The number of training data is: 40
 2024-04-29 17:17:41,399 - Model - INFO - The number of test data is: 8
+2024-04-30 09:54:42,381 - Model - INFO - PARAMETER ...
+2024-04-30 09:54:42,393 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-30 09:54:52,114 - Model - INFO - The number of training data is: 40
+2024-04-30 09:54:52,114 - Model - INFO - The number of test data is: 8
+2024-05-03 20:48:07,973 - Model - INFO - PARAMETER ...
+2024-05-03 20:48:07,985 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-05-03 20:48:15,750 - Model - INFO - The number of training data is: 40
+2024-05-03 20:48:15,751 - Model - INFO - The number of test data is: 8
+2024-05-03 22:29:49,472 - Model - INFO - PARAMETER ...
+2024-05-03 22:29:49,473 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-05-03 22:29:54,435 - Model - INFO - The number of training data is: 40
+2024-05-03 22:29:54,436 - Model - INFO - The number of test data is: 8
+2024-05-03 22:31:24,676 - Model - INFO - Use pretrain model
+2024-05-03 22:31:25,508 - Model - INFO - Epoch 1 (218/251):
+2024-05-03 22:31:25,508 - Model - INFO - Learning rate:0.000010
+2024-05-03 22:31:31,599 - Model - INFO - Train accuracy is: 0.97057
+2024-05-03 22:31:37,369 - Model - INFO - eval mIoU of Teeth          0.696270
+2024-05-03 22:31:37,369 - Model - INFO - Epoch 218 test Accuracy: 0.903564  Class avg mIOU: 0.696270   Inctance avg mIOU: 0.696270
+2024-05-03 22:31:37,369 - Model - INFO - Save model...
+2024-05-03 22:31:37,369 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg/checkpoints/best_model.pth
+2024-05-03 22:31:37,437 - Model - INFO - Saving model....
+2024-05-03 22:31:37,437 - Model - INFO - Best accuracy is: 0.90356
+2024-05-03 22:31:37,437 - Model - INFO - Best class avg mIOU is: 0.69627
+2024-05-03 22:31:37,437 - Model - INFO - Best inctance avg mIOU is: 0.69627
+2024-05-03 22:31:37,437 - Model - INFO - Epoch 2 (219/251):
+2024-05-03 22:31:37,438 - Model - INFO - Learning rate:0.000010
+2024-05-03 22:32:46,826 - Model - INFO - PARAMETER ...
+2024-05-03 22:32:46,826 - Model - INFO - Namespace(model='pointnet2_part_seg_msg', batch_size=8, epoch=251, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-05-03 22:32:46,827 - Model - INFO - The number of training data is: 40
+2024-05-03 22:32:46,827 - Model - INFO - The number of test data is: 8
