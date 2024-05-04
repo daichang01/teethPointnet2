@@ -44,7 +44,6 @@ class PartNormalDataset(Dataset):
             val_ids = set([str(d.split('/')[3]) for d in json.load(f)])
         with open(os.path.join(self.root, 'train_test_split', 'test_files.json'), 'r') as f:
             test_ids = set([str(d.split('/')[3]) for d in json.load(f)])
-        print(train_ids)
         for item in self.cat:
             # print('category', item)
             self.meta[item] = []

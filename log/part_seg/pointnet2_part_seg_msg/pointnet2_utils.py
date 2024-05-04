@@ -259,64 +259,72 @@ class PointNetSetAbstraction(nn.Module):
 # **PointNet**：对分组内的点应用pointnet进行特征的学习 (apply PointNet on each point group)
 
 # 以上过程加起来称作**Set Abstraction**
+        # self.sa1 = PointNetSetAbstractionMsg(512, [0.1, 0.2, 0.4], [32, 64, 128], 3+additional_channel, [[32, 32, 64], [64, 64, 128], [64, 96, 128]])
+
 class PointNetSetAbstractionMsg(nn.Module):
+    # 构造函数
     def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list):
         super(PointNetSetAbstractionMsg, self).__init__()
-        self.npoint = npoint
-        self.radius_list = radius_list
-        self.nsample_list = nsample_list
-        self.conv_blocks = nn.ModuleList()
-        self.bn_blocks = nn.ModuleList()
-        for i in range(len(mlp_list)):
-            convs = nn.ModuleList()
-            bns = nn.ModuleList()
-            last_channel = in_channel + 3
-            for out_channel in mlp_list[i]:
-                convs.append(nn.Conv2d(last_channel, out_channel, 1)) 
-                bns.append(nn.BatchNorm2d(out_channel))
-                last_channel = out_channel
-            self.conv_blocks.append(convs)
-            self.bn_blocks.append(bns)
+        # 保存构造函数参数
+        self.npoint = npoint  # 需要采样的点的数量
+        self.radius_list = radius_list  # 搜索半径的列表
+        self.nsample_list = nsample_list  # 每个半径内的点的数量
+        self.conv_blocks = nn.ModuleList()  # 卷积块列表
+        self.bn_blocks = nn.ModuleList()  # 批归一化块列表
 
+        # 初始化多层感知机（MLP）模块
+        for i in range(len(mlp_list)):
+            convs = nn.ModuleList()  # 当前半径下的卷积层列表
+            bns = nn.ModuleList()  # 当前半径下的批归一化层列表
+            last_channel = in_channel + 3  # 初始通道数，点特征加上空间坐标
+            for out_channel in mlp_list[i]:
+                convs.append(nn.Conv2d(last_channel, out_channel, 1))  # 添加卷积层
+                bns.append(nn.BatchNorm2d(out_channel))  # 添加批归一化层
+                last_channel = out_channel  # 更新通道数
+            self.conv_blocks.append(convs)  # 添加到总的卷积块列表
+            self.bn_blocks.append(bns)  # 添加到总的批归一化块列表
+
+    # 前向传播函数
     def forward(self, xyz, points):
         """
         Input:
-            xyz: input points position data, [B, C, N]
-            points: input points data, [B, D, N]
+            xyz: input points position data, [B, C, N]  # 输入点的位置数据
+            points: input points data, [B, D, N]  # 输入点的特征数据
         Return:
-            new_xyz: sampled points position data, [B, C, S]
-            new_points_concat: sample points feature data, [B, D', S]
+            new_xyz: sampled points position data, [B, C, S]  # 采样点的位置数据
+            new_points_concat: sample points feature data, [B, D', S]  # 采样点的特征数据
         """
-        xyz = xyz.permute(0, 2, 1)
+        xyz = xyz.permute(0, 2, 1)  # 交换维度，为了索引操作
         if points is not None:
-            points = points.permute(0, 2, 1)
+            points = points.permute(0, 2, 1)  # 如果有特征数据，也交换维度
 
-        B, N, C = xyz.shape
+        B, N, C = xyz.shape  # 获取批量大小、点数和坐标维度
         S = self.npoint
-        new_xyz = index_points(xyz, farthest_point_sample(xyz, S))
+        new_xyz = index_points(xyz, farthest_point_sample(xyz, S))  # 采样最远点
         new_points_list = []
         for i, radius in enumerate(self.radius_list):
             K = self.nsample_list[i]
-            group_idx = query_ball_point(radius, K, xyz, new_xyz)
-            grouped_xyz = index_points(xyz, group_idx)
-            grouped_xyz -= new_xyz.view(B, S, 1, C)
+            group_idx = query_ball_point(radius, K, xyz, new_xyz)  # 根据半径和点数获取邻域索引
+            grouped_xyz = index_points(xyz, group_idx)  # 获取邻域点的坐标
+            grouped_xyz -= new_xyz.view(B, S, 1, C)  # 中心化邻域点
             if points is not None:
-                grouped_points = index_points(points, group_idx)
-                grouped_points = torch.cat([grouped_points, grouped_xyz], dim=-1)
+                grouped_points = index_points(points, group_idx)  # 获取邻域点的特征
+                grouped_points = torch.cat([grouped_points, grouped_xyz], dim=-1)  # 合并特征和坐标
             else:
                 grouped_points = grouped_xyz
 
-            grouped_points = grouped_points.permute(0, 3, 2, 1)  # [B, D, K, S]
+            grouped_points = grouped_points.permute(0, 3, 2, 1)  # 调整维度以适应卷积操作
             for j in range(len(self.conv_blocks[i])):
-                conv = self.conv_blocks[i][j]
-                bn = self.bn_blocks[i][j]
-                grouped_points =  F.relu(bn(conv(grouped_points)))
-            new_points = torch.max(grouped_points, 2)[0]  # [B, D', S]
+                conv = self.conv_blocks[i][j]  # 获取卷积层
+                bn = self.bn_blocks[i][j]  # 获取批归一化层
+                grouped_points = F.relu(bn(conv(grouped_points)))  # 应用卷积、批归一化和ReLU激活
+            new_points = torch.max(grouped_points, 2)[0]  # 应用最大池化
             new_points_list.append(new_points)
 
-        new_xyz = new_xyz.permute(0, 2, 1)
-        new_points_concat = torch.cat(new_points_list, dim=1)
+        new_xyz = new_xyz.permute(0, 2, 1)  # 调整采样点坐标的维度
+        new_points_concat = torch.cat(new_points_list, dim=1)  # 合并所有特征
         return new_xyz, new_points_concat
+
 
 #feature propagation实现主要通过线性插值和MLP完成
     # 当点的个数只有一个的时候，采用repeat直接复制成N个点
