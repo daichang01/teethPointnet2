@@ -106,7 +106,7 @@ def main(args):
     log_string("The number of test data is: %d" % len(TEST_DATASET))
 
     # 设定类别总数和部分的数量
-    num_classes = 16
+    num_classes = 1
     num_part = 3
 
     '''MODEL LOADING'''
@@ -216,17 +216,15 @@ def main(args):
         # 每个epoch学习一次
         for i, (points, label, target) in tqdm(enumerate(trainDataLoader), total=len(trainDataLoader), smoothing=0.9):
             optimizer.zero_grad()
-            print(len(points))
-            print(label)
-            print(len(target))
             points = points.data.numpy()
             # 数据增强
             points[:, :, 0:3] = provider.random_scale_point_cloud(points[:, :, 0:3])
             points[:, :, 0:3] = provider.shift_point_cloud(points[:, :, 0:3])
             points = torch.Tensor(points)
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
+            print("Original shape:", points.shape)
             points = points.transpose(2, 1)
-
+            print("Transposed shape:", points.shape)
             # 计算输出
             seg_pred, trans_feat = classifier(points, to_categorical(label, num_classes))
             seg_pred = seg_pred.contiguous().view(-1, num_part)

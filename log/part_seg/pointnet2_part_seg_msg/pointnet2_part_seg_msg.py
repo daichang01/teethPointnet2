@@ -24,7 +24,7 @@ class get_model(nn.Module):
         # 定义特征传播模块，用于特征向较高分辨率层级的传播
         self.fp3 = PointNetFeaturePropagation(in_channel=1536, mlp=[256, 256])
         self.fp2 = PointNetFeaturePropagation(in_channel=576, mlp=[256, 128])
-        self.fp1 = PointNetFeaturePropagation(in_channel=150+additional_channel, mlp=[128, 128])
+        self.fp1 = PointNetFeaturePropagation(in_channel=135+additional_channel, mlp=[128, 128])
         
         # 定义一维卷积层，用于处理传播后的特征
         self.conv1 = nn.Conv1d(128, 128, 1)
@@ -51,7 +51,7 @@ class get_model(nn.Module):
         # Feature Propagation layers
         l2_points = self.fp3(l2_xyz, l3_xyz, l2_points, l3_points)  # 从l3到l2的特征传播
         l1_points = self.fp2(l1_xyz, l2_xyz, l1_points, l2_points)  # 从l2到l1的特征传播
-        cls_label_one_hot = cls_label.view(B,16,1).repeat(1,1,N)  # 将类标签转换为one-hot编码，并重复以匹配每个点
+        cls_label_one_hot = cls_label.view(B,1,1).repeat(1,1,N)  # 将类标签转换为one-hot编码，并重复以匹配每个点
         l0_points = self.fp1(l0_xyz, l1_xyz, torch.cat([cls_label_one_hot, l0_xyz, l0_points], 1), l1_points)  # 从l1到l0的特征传播，包括类别信息
         # FC layers
         feat = F.relu(self.bn1(self.conv1(l0_points)))  # 对最初层点的特征应用卷积、批归一化和ReLU激活函数

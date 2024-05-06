@@ -7,3 +7,11 @@
 2024-04-28 11:20:17,659 - Model - INFO - PARAMETER ...
 2024-04-28 11:20:17,659 - Model - INFO - Namespace(batch_size=24, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
 2024-04-28 11:20:17,659 - Model - INFO - The number of test data is: 8
+2024-05-06 21:33:01,461 - Model - INFO - PARAMETER ...
+2024-05-06 21:33:01,461 - Model - INFO - Namespace(batch_size=24, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-06 21:33:01,461 - Model - INFO - The number of test data is: 8
+2024-05-06 21:33:02,351 - Model - INFO - eval mIoU of Teeth          0.672199
+2024-05-06 21:33:02,352 - Model - INFO - Accuracy is: 0.89746
+2024-05-06 21:33:02,352 - Model - INFO - Class avg accuracy is: 0.74902
+2024-05-06 21:33:02,352 - Model - INFO - Class avg mIOU is: 0.67220
+2024-05-06 21:33:02,352 - Model - INFO - Inctance avg mIOU is: 0.67220
