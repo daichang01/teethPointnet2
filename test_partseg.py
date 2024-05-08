@@ -19,7 +19,7 @@ sys.path.append(os.path.join(ROOT_DIR, 'models'))
 #字典的定义
 seg_classes = {'Teeth': [0, 1, 2]}
 
-seg_label_to_cat = {}  # {0:Airplane, 1:Airplane, ...49:Table}
+seg_label_to_cat = {}  # {0:Teeth}
 for cat in seg_classes.keys():
     for label in seg_classes[cat]:
         seg_label_to_cat[label] = cat
@@ -98,7 +98,7 @@ def main(args):
         for batch_id, (points, label, target) in tqdm(enumerate(testDataLoader), total=len(testDataLoader),
                                                       smoothing=0.9):
             batchsize, num_point, _ = points.size()
-            cur_batch_size, NUM_POINT, _ = points.size() #cur_batch_size:24, num_point:2048
+            cur_batch_size, NUM_POINT, _ = points.size() #cur_batch_size:8, num_point:2048
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
             vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).cuda()
@@ -112,14 +112,14 @@ def main(args):
             cur_pred_val_logits = cur_pred_val
             cur_pred_val = np.zeros((cur_batch_size, NUM_POINT)).astype(np.int32)
             #对每个点进行分类
-            target = target.cpu().data.numpy() #(24, 2048)
+            target = target.cpu().data.numpy() #(8, 2048)
 
             for i in range(cur_batch_size):
                 cat = seg_label_to_cat[target[i, 0]] #类别字符串：如‘airplane
-                logits = cur_pred_val_logits[i, :, :] #（2048, 50）
+                logits = cur_pred_val_logits[i, :, :] #（2048, 3）
                 cur_pred_val[i, :] = np.argmax(logits[:, seg_classes[cat]], 1) + seg_classes[cat][0]
 
-            correct = np.sum(cur_pred_val == target) #正确分类的点数
+            correct = np.sum(cur_pred_val == target) #正确分类的点数  (8,2048)
             total_correct += correct #累计正确分类的点数
             total_seen += (cur_batch_size * NUM_POINT) #累计测试的点数
 
@@ -130,9 +130,9 @@ def main(args):
             for i in range(cur_batch_size):
                 segp = cur_pred_val[i, :] #(2048)
                 segl = target[i, :] #(2048)
-                cat = seg_label_to_cat[segl[0]] #类别字符串：如‘airplane
+                cat = seg_label_to_cat[segl[0]] #‘Teeth
                 # 计算part IoU
-                part_ious = [0.0 for _ in range(len(seg_classes[cat]))] #list:4(对于飞机而言)
+                part_ious = [0.0 for _ in range(len(seg_classes[cat]))] #list:3
                 for l in seg_classes[cat]:
                     if (np.sum(segl == l) == 0) and (
                             np.sum(segp == l) == 0):  # part is not present, no prediction as well

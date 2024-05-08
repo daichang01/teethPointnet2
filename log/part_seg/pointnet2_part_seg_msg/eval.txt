@@ -15,3 +15,19 @@
 2024-05-06 21:33:02,352 - Model - INFO - Class avg accuracy is: 0.74902
 2024-05-06 21:33:02,352 - Model - INFO - Class avg mIOU is: 0.67220
 2024-05-06 21:33:02,352 - Model - INFO - Inctance avg mIOU is: 0.67220
+2024-05-08 17:30:51,703 - Model - INFO - PARAMETER ...
+2024-05-08 17:31:17,153 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-08 17:49:14,582 - Model - INFO - The number of test data is: 8
+2024-05-08 17:49:16,866 - Model - INFO - eval mIoU of Teeth          0.684876
+2024-05-08 17:49:16,866 - Model - INFO - Accuracy is: 0.89551
+2024-05-08 17:49:16,866 - Model - INFO - Class avg accuracy is: 0.76755
+2024-05-08 17:49:16,867 - Model - INFO - Class avg mIOU is: 0.68488
+2024-05-08 17:49:16,867 - Model - INFO - Inctance avg mIOU is: 0.68488
+2024-05-08 17:49:45,506 - Model - INFO - PARAMETER ...
+2024-05-08 17:49:45,507 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-08 17:50:30,238 - Model - INFO - The number of test data is: 8
+2024-05-08 19:42:32,498 - Model - INFO - eval mIoU of Teeth          0.684722
+2024-05-08 19:42:32,499 - Model - INFO - Accuracy is: 0.90143
+2024-05-08 19:42:32,499 - Model - INFO - Class avg accuracy is: 0.76161
+2024-05-08 19:42:32,500 - Model - INFO - Class avg mIOU is: 0.68472
+2024-05-08 19:42:32,500 - Model - INFO - Inctance avg mIOU is: 0.68472
