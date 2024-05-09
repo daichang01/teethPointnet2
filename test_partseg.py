@@ -11,6 +11,7 @@ import sys
 import importlib
 from tqdm import tqdm
 import numpy as np
+import open3d as o3d
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = BASE_DIR
@@ -24,7 +25,47 @@ for cat in seg_classes.keys():
     for label in seg_classes[cat]:
         seg_label_to_cat[label] = cat
 
+def visualize_point_cloud(points, labels, num_classes):
+    """Visualize a point cloud with colors assigned to each point based on the segmentation labels."""
+    # 确保点的形状和数据类型是正确的
+    points = np.asarray(points)
+    if points.ndim != 2 or points.shape[1] != 3:
+        raise ValueError("点数组应该是 (N, 3) 形状")
+    if points.dtype not in [np.float32, np.float64]:
+        points = points.astype(np.float32)  # 转换为 float32 类型
 
+    # 创建颜色映射
+    color_map = np.array([
+        [1, 0, 0],  # Red
+        [0, 1, 0],  # Green
+        [0, 0, 1],  # Blue
+        # 根据需要添加更多颜色
+    ])
+    if num_classes > len(color_map):
+        # 如果类别数大于颜色映射数组的长度，随机生成额外的颜色
+        extra_colors = np.random.rand(num_classes - len(color_map), 3)
+        color_map = np.vstack([color_map, extra_colors])
+
+    colors = color_map[labels % num_classes]  # 使用模运算确保标签索引不会超出颜色映射的范围
+
+    # 创建点云对象
+    pcd = o3d.geometry.PointCloud()
+    pcd.points = o3d.utility.Vector3dVector(points)
+    pcd.colors = o3d.utility.Vector3dVector(colors.astype(np.float64))  # 确保颜色也是正确的数据类型
+    o3d.visualization.draw_geometries([pcd])
+
+# 使用示例：
+# visualize_point_cloud(points_np[0], pred_labels_np[0], num_classes)
+
+def save_point_cloud_txt(points, labels, file_path):
+    """Save points and labels to a TXT file."""
+    # 将点坐标和标签合并
+    data_to_save = np.hstack((points, labels[:, np.newaxis]))  # 确保标签是列向量
+    # 保存数据到文件
+    np.savetxt(file_path, data_to_save, fmt='%f %f %f %d')  # XYZ为浮点数，标签为整数
+
+def restore_original_scale(pc_normalized, centroid, max_dist):
+    return pc_normalized * max_dist + centroid
 def to_categorical(y, num_classes):
     """ 1-hot encodes a tensor """
     new_y = torch.eye(num_classes)[y.cpu().data.numpy(),]
@@ -142,6 +183,27 @@ def main(args):
                             np.sum((segl == l) | (segp == l))) #计算交并比
                 # 计算类别的shape IoU
                 shape_ious[cat].append(np.mean(part_ious)) # dict:16个类别（我这里是一个类别，应该时一样的）
+            
+            seg_pred = seg_pred.argmax(dim=2)  # 获取最可能的分类标签
+            # 将数据从GPU移动到CPU，并转换为numpy数组
+            points_np = points.cpu().numpy()
+            pred_labels_np = seg_pred.cpu().numpy()
+
+            # 提取每个样本的 XYZ 坐标，假设前三个特征是 XYZ
+            points_xyz = points_np[:, :3, :]  # 修改为正确的维度切片，形状应为 (8, 3, 2048)
+            points_xyz = points_xyz.transpose(0, 2, 1)  # 调整形状为 (8, 2048, 3) 以符合 open3d 的期望
+
+             # 保存每个样本的点云到 TXT 文件
+            for i in range(points_xyz.shape[0]):
+                file_path = os.path.join('pred_point_clouds', f'point_cloud_batch{batch_id}_sample{i}.txt')
+                save_point_cloud_txt(points_xyz[i], pred_labels_np[i], file_path)
+            
+            # 可视化第一个批次的第一个点云样本
+            if batch_id == 0:  # 仅可视化第一个批次的第一个点云
+                visualize_point_cloud(points_xyz[0], pred_labels_np[0], num_part)
+
+
+
 
         all_shape_ious = []
         for cat in shape_ious.keys():

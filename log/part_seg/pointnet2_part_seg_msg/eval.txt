@@ -31,3 +31,70 @@
 2024-05-08 19:42:32,499 - Model - INFO - Class avg accuracy is: 0.76161
 2024-05-08 19:42:32,500 - Model - INFO - Class avg mIOU is: 0.68472
 2024-05-08 19:42:32,500 - Model - INFO - Inctance avg mIOU is: 0.68472
+2024-05-09 18:15:51,884 - Model - INFO - PARAMETER ...
+2024-05-09 18:15:51,885 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:15:51,885 - Model - INFO - The number of test data is: 8
+2024-05-09 18:23:07,891 - Model - INFO - PARAMETER ...
+2024-05-09 18:23:07,891 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:23:07,892 - Model - INFO - The number of test data is: 8
+2024-05-09 18:25:28,427 - Model - INFO - PARAMETER ...
+2024-05-09 18:25:28,427 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:25:28,427 - Model - INFO - The number of test data is: 8
+2024-05-09 18:27:30,865 - Model - INFO - PARAMETER ...
+2024-05-09 18:27:30,865 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:27:30,866 - Model - INFO - The number of test data is: 8
+2024-05-09 18:28:05,115 - Model - INFO - PARAMETER ...
+2024-05-09 18:28:05,115 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:28:05,116 - Model - INFO - The number of test data is: 8
+2024-05-09 18:33:24,046 - Model - INFO - PARAMETER ...
+2024-05-09 18:33:24,046 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:33:24,047 - Model - INFO - The number of test data is: 8
+2024-05-09 18:35:01,292 - Model - INFO - eval mIoU of Teeth          0.675166
+2024-05-09 18:35:01,292 - Model - INFO - Accuracy is: 0.89478
+2024-05-09 18:35:01,292 - Model - INFO - Class avg accuracy is: 0.74336
+2024-05-09 18:35:01,292 - Model - INFO - Class avg mIOU is: 0.67517
+2024-05-09 18:35:01,292 - Model - INFO - Inctance avg mIOU is: 0.67517
+2024-05-09 18:35:20,606 - Model - INFO - PARAMETER ...
+2024-05-09 18:35:20,607 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:35:20,607 - Model - INFO - The number of test data is: 8
+2024-05-09 18:35:34,197 - Model - INFO - eval mIoU of Teeth          0.679901
+2024-05-09 18:35:34,197 - Model - INFO - Accuracy is: 0.89380
+2024-05-09 18:35:34,197 - Model - INFO - Class avg accuracy is: 0.75148
+2024-05-09 18:35:34,197 - Model - INFO - Class avg mIOU is: 0.67990
+2024-05-09 18:35:34,197 - Model - INFO - Inctance avg mIOU is: 0.67990
+2024-05-09 18:36:29,812 - Model - INFO - PARAMETER ...
+2024-05-09 18:36:29,813 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 18:36:29,813 - Model - INFO - The number of test data is: 8
+2024-05-09 19:12:31,539 - Model - INFO - PARAMETER ...
+2024-05-09 19:12:31,539 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 19:12:31,540 - Model - INFO - The number of test data is: 8
+2024-05-09 19:13:27,382 - Model - INFO - eval mIoU of Teeth          0.687374
+2024-05-09 19:13:27,383 - Model - INFO - Accuracy is: 0.90149
+2024-05-09 19:13:27,383 - Model - INFO - Class avg accuracy is: 0.76120
+2024-05-09 19:13:27,383 - Model - INFO - Class avg mIOU is: 0.68737
+2024-05-09 19:13:27,383 - Model - INFO - Inctance avg mIOU is: 0.68737
+2024-05-09 21:26:40,786 - Model - INFO - PARAMETER ...
+2024-05-09 21:26:40,787 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 21:26:40,787 - Model - INFO - The number of test data is: 8
+2024-05-09 22:04:36,384 - Model - INFO - PARAMETER ...
+2024-05-09 22:04:36,385 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 22:04:36,385 - Model - INFO - The number of test data is: 8
+2024-05-09 22:07:26,391 - Model - INFO - PARAMETER ...
+2024-05-09 22:07:26,391 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 22:07:26,392 - Model - INFO - The number of test data is: 8
+2024-05-09 22:17:16,545 - Model - INFO - PARAMETER ...
+2024-05-09 22:17:16,545 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 22:17:16,546 - Model - INFO - The number of test data is: 8
+2024-05-09 22:17:26,926 - Model - INFO - eval mIoU of Teeth          0.683811
+2024-05-09 22:17:26,927 - Model - INFO - Accuracy is: 0.89545
+2024-05-09 22:17:26,927 - Model - INFO - Class avg accuracy is: 0.75830
+2024-05-09 22:17:26,928 - Model - INFO - Class avg mIOU is: 0.68381
+2024-05-09 22:17:26,928 - Model - INFO - Inctance avg mIOU is: 0.68381
+2024-05-09 22:44:22,146 - Model - INFO - PARAMETER ...
+2024-05-09 22:44:22,146 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 22:44:22,147 - Model - INFO - The number of test data is: 8
+2024-05-09 22:44:30,033 - Model - INFO - eval mIoU of Teeth          0.686628
+2024-05-09 22:44:30,033 - Model - INFO - Accuracy is: 0.90100
+2024-05-09 22:44:30,033 - Model - INFO - Class avg accuracy is: 0.76249
+2024-05-09 22:44:30,033 - Model - INFO - Class avg mIOU is: 0.68663
+2024-05-09 22:44:30,034 - Model - INFO - Inctance avg mIOU is: 0.68663
