@@ -15,7 +15,8 @@ def pc_normalize(pc):
     pc = pc - centroid # 通过从每个点的坐标中减去质心坐标，将点云的中心移动到原点。这一步是为了去除点云位置的影响，仅保留形状信息。
     m = np.max(np.sqrt(np.sum(pc ** 2, axis=1))) #找出所有点中到原点距离最远的点的距离，即点云的最大范围。
     pc = pc / m #将点云中的每个点除以最大距离 m，确保点云中所有点的最大距离为1。这样，点云被规范到单位球内，使得不同的点云数据具有可比性
-    return pc
+    return pc, centroid, m
+
 # 指定数据集在哪个目录下，默认采2500个点
 class PartNormalDataset(Dataset):
     def __init__(self,root = 'data/teeth_segmentation_normal', npoints=2500, split='train', class_choice=None, normal_channel=False):
@@ -24,6 +25,9 @@ class PartNormalDataset(Dataset):
         self.catfile = os.path.join(self.root, 'category.txt')
         self.cat = {}
         self.normal_channel = normal_channel
+        self.centroids = []  # 存储每个样本的质心
+        self.max_dists = []  # 存储每个样本的最大距离
+
 
 
         with open(self.catfile, 'r') as f:
@@ -102,7 +106,9 @@ class PartNormalDataset(Dataset):
             seg = data[:, -1].astype(np.int32)
             if len(self.cache) < self.cache_size:
                 self.cache[index] = (point_set, cls, seg)
-        point_set[:, 0:3] = pc_normalize(point_set[:, 0:3])
+        point_set[:, 0:3], centroid, max_dist= pc_normalize(point_set[:, 0:3])
+        self.centroids.append(centroid)
+        self.max_dists.append(max_dist)
         #随机选择npoints个点
         choice = np.random.choice(len(seg), self.npoints, replace=True)
         # resample
@@ -111,15 +117,8 @@ class PartNormalDataset(Dataset):
         #point_set 点云数据，前6列，进行了点云归1化，限制半径为1  (2048, 6)
         #cls 类别，这里只有一个类别0,代表teeth   0
         #seg 最后一列标签，是向量，代表每个点属于哪个类别 (2048,)
-        return point_set, cls, seg #返回一个索引对应的数据项 
+        return point_set, cls, seg, centroid, max_dist #返回一个索引对应的数据项 
 
     def __len__(self):
         return len(self.datapath)
 
-def main():
-    root = 'data/teeth_segmentation_normal'
-
-    TRAIN_DATASET = PartNormalDataset(root, npoints=1800, split='trainval', normal_channel=False)
-
-if __name__ == '__main__':
-    main()

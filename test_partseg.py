@@ -39,7 +39,6 @@ def visualize_point_cloud(points, labels, num_classes):
         [1, 0, 0],  # Red
         [0, 1, 0],  # Green
         [0, 0, 1],  # Blue
-        # 根据需要添加更多颜色
     ])
     if num_classes > len(color_map):
         # 如果类别数大于颜色映射数组的长度，随机生成额外的颜色
@@ -73,6 +72,8 @@ def to_categorical(y, num_classes):
         return new_y.cuda()
     return new_y
 
+def restore_original_scale(pc_normalized, centroid, max_dist):
+    return pc_normalized * max_dist + centroid
 
 def parse_args():
     '''PARAMETERS'''
@@ -136,7 +137,7 @@ def main(args):
                 seg_label_to_cat[label] = cat
 
         classifier = classifier.eval()
-        for batch_id, (points, label, target) in tqdm(enumerate(testDataLoader), total=len(testDataLoader),
+        for batch_id, (points, label, target, centroids, max_dists) in tqdm(enumerate(testDataLoader), total=len(testDataLoader),
                                                       smoothing=0.9):
             batchsize, num_point, _ = points.size()
             cur_batch_size, NUM_POINT, _ = points.size() #cur_batch_size:8, num_point:2048
@@ -154,6 +155,8 @@ def main(args):
             cur_pred_val = np.zeros((cur_batch_size, NUM_POINT)).astype(np.int32)
             #对每个点进行分类
             target = target.cpu().data.numpy() #(8, 2048)
+            centroids_np = centroids.cpu().numpy()
+            max_dists_np = max_dists.cpu().numpy()
 
             for i in range(cur_batch_size):
                 cat = seg_label_to_cat[target[i, 0]] #类别字符串：如‘airplane
@@ -195,12 +198,19 @@ def main(args):
 
              # 保存每个样本的点云到 TXT 文件
             for i in range(points_xyz.shape[0]):
+                restored_points = restore_original_scale(points_xyz[i], centroids_np[i], max_dists_np[i])
                 file_path = os.path.join('pred_point_clouds', f'point_cloud_batch{batch_id}_sample{i}.txt')
-                save_point_cloud_txt(points_xyz[i], pred_labels_np[i], file_path)
+                # save_point_cloud_txt(points_xyz[i], pred_labels_np[i], file_path)
+                save_point_cloud_txt(restored_points, pred_labels_np[i], file_path)
+                if (i == 0):
+                    # visualize_point_cloud(points_xyz[0], pred_labels_np[0], num_part)
+                    visualize_point_cloud(restored_points, pred_labels_np[0], num_part)
+
+
             
-            # 可视化第一个批次的第一个点云样本
-            if batch_id == 0:  # 仅可视化第一个批次的第一个点云
-                visualize_point_cloud(points_xyz[0], pred_labels_np[0], num_part)
+            # # 可视化第一个批次的第一个点云样本
+            # if batch_id == 0:  # 仅可视化第一个批次的第一个点云
+            #     visualize_point_cloud(points_xyz[0], pred_labels_np[0], num_part)
 
 
 

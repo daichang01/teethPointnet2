@@ -98,3 +98,26 @@
 2024-05-09 22:44:30,033 - Model - INFO - Class avg accuracy is: 0.76249
 2024-05-09 22:44:30,033 - Model - INFO - Class avg mIOU is: 0.68663
 2024-05-09 22:44:30,034 - Model - INFO - Inctance avg mIOU is: 0.68663
+2024-05-09 23:18:02,684 - Model - INFO - PARAMETER ...
+2024-05-09 23:18:02,684 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-09 23:18:02,685 - Model - INFO - The number of test data is: 8
+2024-05-10 22:09:12,405 - Model - INFO - PARAMETER ...
+2024-05-10 22:09:12,406 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:09:12,406 - Model - INFO - The number of test data is: 8
+2024-05-10 22:14:16,556 - Model - INFO - PARAMETER ...
+2024-05-10 22:14:16,556 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:14:16,557 - Model - INFO - The number of test data is: 8
+2024-05-10 22:26:42,845 - Model - INFO - PARAMETER ...
+2024-05-10 22:26:42,845 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:26:42,846 - Model - INFO - The number of test data is: 8
+2024-05-10 22:27:56,811 - Model - INFO - eval mIoU of Teeth          0.688311
+2024-05-10 22:27:56,811 - Model - INFO - Accuracy is: 0.90167
+2024-05-10 22:27:56,812 - Model - INFO - Class avg accuracy is: 0.75884
+2024-05-10 22:27:56,812 - Model - INFO - Class avg mIOU is: 0.68831
+2024-05-10 22:27:56,812 - Model - INFO - Inctance avg mIOU is: 0.68831
+2024-05-10 22:34:50,101 - Model - INFO - PARAMETER ...
+2024-05-10 22:34:50,101 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:34:50,102 - Model - INFO - The number of test data is: 8
+2024-05-10 22:36:20,913 - Model - INFO - PARAMETER ...
+2024-05-10 22:36:20,913 - Model - INFO - Namespace(batch_size=8, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:36:20,914 - Model - INFO - The number of test data is: 8
